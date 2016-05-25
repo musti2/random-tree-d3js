@@ -1,0 +1,1526 @@
+{
+  "name": "GE Store",
+  "type": "parent",
+  "children": [
+    {
+      "name": "By Business",
+      "type": "rootparent",
+      "children": [
+        {
+          "name": "ENERGY CONNECTIONS",
+          "type": "parent",
+          "statement": "GE’s Electrification and Automation Business. We bring the world reliable, efficient energy. We enable utilities and industry to efficiently manage electricity from the point of generation to the point of consumption.",
+          "contactName": [
+            "George Gerdan"
+          ],
+          "contactEmail": "george.gerdan@ge.com",
+          "contactPh": "+61 450 930 119",
+          "children": [
+            {
+              "name": "POWER CONVERSION",
+              "statement": "We apply the science and systems of power conversion to help drive the electric transformation of the world’s energy infrastructure.",
+              "offerings": [
+                "Motors, Generators",
+                "Drives",
+                "Integrated Systems & Software",
+                "Operational Excellence & Services"
+              ],
+              "contacts": [
+                {
+                  "name": "Nigel Went",
+                  "email": "nigel.went@ge.com",
+                  "area": "",
+                  "phone": "+61 408 134 094"
+                }
+              ],
+              "videoUrl": "",
+              "ppUrl": "https://ge.box.com/shared/static/emhn7v589ok8y5k09avtzuy7ckuq8obi.pptx",
+              "ooUlr": "http://www.gepowerconversion.com/",
+              "type": "parent",
+              "children": [
+                {
+                  "name": "MOTORS",
+                  "statement": "GE manufactured motors and generators for some of the first commercial and industrial electrical applications. We continue to deliver innovative electrical and mechanical power solutions to the world. Our machines efficiently operate in challenging applications and severe environments where reliability and ease of maintenance is critical.",
+                  "offerings": [
+                    "Low Voltage Electric Motors 400V to 690V",
+                    "Medium Voltage Electric Motors",
+                    "SCIM (Squirrel Cage Induction Motors) ",
+                    "WRIM (Wound Rotor Induction Motors) ",
+                    "LSS (Low Speed Synchronous) DC Motors"
+                  ],
+                  "contacts": [
+                    {
+                      "name": "Peter Jenner",
+                      "email": "peter.jenner@ge.com",
+                      "area": "",
+                      "phone": "+61 447 610 278"
+                    }
+                  ],
+                  "videoUrl": "",
+                  "ppUrl": "",
+                  "ooUlr": "",
+                  "tags": []
+                },
+                {
+                  "name": "DRIVES",
+                  "statement": "GE’s Power Conversion drives can substantially improve the quality and efficiency of your process or production. GE’s drive technology delivers efficient and flexible control of electric power to a wide range of driven equipment. GE drives can feed both induction and synchronous machines with high performance vector control across all speed ranges. For multiple drive applications with both motoring and regenerating drives, a common DC link fed by a single active front end can reduce overall equipment cost and footprint.",
+                  "offerings": [
+                    "Low Voltage Variable Speed Drives - 400V to 690V – LV7000",
+                    "Medium Voltage Variable Speed Drives - 3.3KV to 11KV – MV6, MV7000, SER (Slip Energy Recovery) Drive"
+                  ],
+                  "contacts": [
+                    {
+                      "name": "Peter Jenner",
+                      "email": "peter.jenner@ge.com",
+                      "area": "",
+                      "phone": "+61 447 610 278"
+                    }
+                  ],
+                  "videoUrl": "",
+                  "ppUrl": "",
+                  "ooUlr": "",
+                  "tags": []
+                },
+                {
+                  "name": "INVERTERS",
+                  "statement": "GE’s Power Conversion business provides a complete range of central inverters based on a modular and compact approach, and specifically designed for the solar industry. As part of GE’s ongoing development in power electronics technology, the solar inverters build on extensive experience with designing, manufacturing and installing more than 34 GW of converters for the renewable energy industry, and decades of experience in controls for a wide range of utility applications. The installed base covers the full range of utility scale requirements, including converters to meet stringent grid code requirements in extreme environmental conditions.",
+                  "offerings": [
+                    "1500VDC up to 1MVA block with Skids",
+                    "Options of 2MVA, 3MVA and 4MVA"
+                  ],
+                  "contacts": [
+                    {
+                      "name": "Jeff Hanson",
+                      "email": "Jeff.Hanson1@ge.com",
+                      "area": "",
+                      "phone": "+61 409 254 886"
+                    }
+                  ],
+                  "videoUrl": "",
+                  "ppUrl": "",
+                  "ooUlr": "",
+                  "tags": []
+                },
+                {
+                  "name": "Rail DC Traction and Static Frequency Converters",
+                  "statement": "GE Power Conversion provides special power supply solutions like railway network frequency conversion stations and research pulse generators as well as control systems for rail applications to support in provision of reliable, efficient energy for rail transport.",
+                  "offerings": [
+                    "DC Traction - Package Solution 750VDC",
+                    "SFC - 3.3kV to 132kV, Various Frequencies"
+                  ],
+                  "contacts": [
+                    {
+                      "name": "Jeff Hanson",
+                      "email": "Jeff.Hanson1@ge.com",
+                      "area": "",
+                      "phone": "+61 409 254 886"
+                    }
+                  ],
+                  "videoUrl": "",
+                  "ppUrl": "",
+                  "ooUlr": "",
+                  "tags": []
+                }
+              ]
+            },
+            {
+              "name": "GRID SOLUTIONS",
+              "type": "parent",
+              "statement": "",
+              "offerings": [],
+              "contacts": [],
+              "videoUrl": "",
+              "ppUrl": "",
+              "ooUlr": "",
+              "children": [
+                {
+                  "name": "SOFTWARE",
+                  "statement": "Provision of  operation and information technology solutions to electricity market, transmission and distribution  network operators, managing the real-time generation of electricity and the reliable delivery from generators to consumers.  Supplying geospatial information systems (GIS)  for the efficient design and modeling of complex network infrastructures while supporting asset management lifecycle processes for electrical, telco, and oil and gas pipelines.",
+                  "offerings": [
+                    "Network Control Centre Software (Electrical, Oil & Gas) (EMS/DMS)",
+                    "Energy Market Management Systems (MMS)",
+                    "Generation Management Systems (GMS)",
+                    "Energy Network Demand Response Systems (DRMS)",
+                    "Geospatial Information Systems (GIS)",
+                    "Utility Telecommunications Equipment ",
+                    "Outage Management Systems(OMS)"
+                  ],
+                  "contacts": [
+                    {
+                      "name": "Richard Brownfield",
+                      "area": "",
+                      "email": "richard.brownfield@ge.com",
+                      "phone": "+61414107617"
+                    }
+                  ],
+                  "videoUrl": "",
+                  "ppUrl": "",
+                  "ooUlr": "",
+                  "tags": []
+                },
+                {
+                  "name": "GRID AUTOMATION",
+                  "statement": "Provision of Substation Protection and Control products, systems and engineering to be used in all voltage ranges from MV (6.6kV) to EHV (500kV).   Provides solutions for Customers to provide protection, control systems, SCADA, remote access and asset performance management utilising wide range of technology and standards Protection Relays (Multilin, Micom, UR, Midos).",
+                  "offerings": [
+                    "Protection Relays (Multilin, Micom, UR, Midos)",
+                    "SCADA control systems",
+                    "Substation condition monitoring products (Hydran)",
+                    "Substation Digital technology"
+                  ],
+                  "contacts": [
+                    {
+                      "name": "Edric Ferdinands",
+                      "area": "",
+                      "email": "edric.ferdinands@ge.com",
+                      "phone": "+61481305471"
+                    }
+                  ],
+                  "videoUrl": "",
+                  "ppUrl": "",
+                  "ooUlr": "",
+                  "tags": []
+                },
+                {
+                  "name": "PROJECTS AND ENGINEERING",
+                  "statement": "Solution Provider for Electricity Network businesses providing turnkey optimised engineered project delivery utilising products and technology solutions from the wider GE community.  Covering all facets from conceptual design, network studies, specification, procurement, detailed engineering, project management, FAT, construction and commissioning.   New technology and alternative solutions can be provided to solve Electricity Network issues.",
+                  "offerings": [
+                    "Engineering and projects for Electrical Networks",
+                    "High Voltage Plant and Transformers above 33kV",
+                    "Protection, Control and SCADA Systems",
+                    "HV DC and Reactive Power support",
+                    "Specialised Network equipment"
+                  ],
+                  "contacts": [
+                    {
+                      "name": "Chin Lim (Sales)",
+                      "area": "",
+                      "email": "chin.lim@alstom.com",
+                      "phone": "+61 408335477"
+                    },
+                    {
+                      "name": "Garry Dodd (QLD/NSW)",
+                      "area": "",
+                      "email": "garry.dodd@alstom.com",
+                      "phone": "+61 408804725"
+                    },
+                    {
+                      "name": "Ian Jackson (VIC/TAS/SA)",
+                      "area": "",
+                      "email": "ian1.jackson@ge.com",
+                      "phone": "+ 61 418514345"
+                    },
+                    {
+                      "name": "Maheen Mudannayake (NZ)",
+                      "area": "",
+                      "email": "maheen.mudannayake@ge.com",
+                      "phone": "+64 212421357"
+                    },
+                    {
+                      "name": "Martin Blyth (WA/NT",
+                      "area": "",
+                      "email": "martin.blyth@ge.com",
+                      "phone": "+61 411653877"
+                    }
+                  ],
+                  "videoUrl": "",
+                  "ppUrl": "",
+                  "ooUlr": "",
+                  "tags": []
+                },
+                {
+                  "name": "SERVICES",
+                  "statement": "Providing to owners of Network Electrical infrastructure a high quality, innovative and sustainable products services to deliver cost effective “future proof” optimised assets.  Through the utilisation of our global transmission expertise, our local technical specialists provide you with customised services, training, spares and long term support.  Offering hardware and software products to develop the backbone of a  new digital control system while ensuring a  seamless transition with existing  operating systems",
+                  "offerings": [
+                    "electrical network asset maintenance and performance",
+                    "electrical networks asset single inspection to long term operations and maintenance ",
+                    "training on all facets of electrical networks materials, technology and systems",
+                    "spares parts and technical support",
+                    "electrical asset condition monitoring solutions"
+                  ],
+                  "contacts": [
+                    {
+                      "name": "Christophe Denis (Sales)",
+                      "area": "",
+                      "email": "christophe.denis@alstom.com",
+                      "phone": "+61417717131"
+                    }
+                  ],
+                  "videoUrl": "",
+                  "ppUrl": "",
+                  "ooUlr": "",
+                  "tags": []
+                },
+                {
+                  "name": "HIGH VOLTAGE EQUIPMENT",
+                  "statement": "World leading supplier of High voltage equipment (33kV and above) and Power Transformers for Network Owners, Industry and Infrastructure customers",
+                  "offerings": [
+                    "AIS - Circuit Breakers >33kV",
+                    "AIS - Instrument Transformers >33kV (CT/VT)",
+                    "AIS - Isolators/Disconnections >33kV",
+                    "TFR - Power Transformers >10MVA",
+                    "FACTS - Reactive Power Equipment (Capacitors)",
+                    "GIS - Gas Insulated Switchgear > 33kV"
+                  ],
+                  "contacts": [
+                    {
+                      "name": "Alan Tancin (AIS)",
+                      "area": "",
+                      "email": "alan.tancin@ge.com",
+                      "phone": "+61477704203"
+                    },
+                    {
+                      "name": "Neeraj Srivastava (Tfr)",
+                      "area": "",
+                      "email": "neeraj.srivastava@alstom.com",
+                      "phone": "+61407560821"
+                    },
+                    {
+                      "name": "Chin Lim (FACTS)",
+                      "area": "",
+                      "email": "chin.lim@alstom.com",
+                      "phone": "+61408335477"
+                    },
+                    {
+                      "name": "Stephen Gong (GIS)",
+                      "area": "",
+                      "email": "steven.gong@alstom.com",
+                      "phone": "+61439436484"
+                    }
+                  ],
+                  "tags": []
+                }
+              ]
+            },
+            {
+              "name": "INDUSTRIAL SOLUTIONS",
+              "statement": "We create advanced technologies that safely, reliably and efficiently distribute and control electricity to protect people, property and equipment; We also provide high performance control solutions for a connected world. Low Voltage electrical components - Distributed by IPD, NHP, Vynco (NZ)",
+              "offerings": [
+                "LV & MV switchgear, distribution boards and motor control - <41kV",
+                "MV transformers - Resin type. up to 33kV, <15MVA",
+                "LV and MV Busway",
+                "DC Switchgear <1.5kV",
+                "Transfer switches",
+                "UPS (single and three phase) up to 600kVA"
+              ],
+              "contacts": [
+                {
+                  "name": "Dylan Reilly",
+                  "email": "dylan.reilly@ge.com",
+                  "area": "",
+                  "phone": "+61450295075"
+                }
+              ],
+              "videoUrl": "",
+              "ppUrl": "",
+              "ooUlr": "",
+              "type": "parent",
+              "children": [
+                {
+                  "name": "LOW VOLTAGE & MEDIUM VOLTAGE SWITCHGEAR",
+                  "statement": "We create advanced technologies that safely, reliably and efficiently distribute and control electricity to protect people, property and equipment; We also provide high performance control solutions for a connected world. Low Voltage electrical components - Distributed by IPD, NHP, Vynco (NZ)",
+                  "offerings": [
+                    "LV & MV switchgear",
+                    "distribution boards and motor control <41kV"
+                  ],
+                  "contacts": [
+                    {
+                      "name": "Dylan Reilly",
+                      "email": "dylan.reilly@ge.com",
+                      "area": "",
+                      "phone": "+61450295075"
+                    }
+                  ],
+                  "videoUrl": "",
+                  "ppUrl": "",
+                  "ooUlr": "",
+                  "tags": []
+                },
+                {
+                  "name": "DIRECT CURRENT SWITCHGEAR",
+                  "statement": "AKD-20 low-voltage switchgear continues the tradition of the AKD switchgear line while delivering enhanced arc flash protection. Its protection features include non-vented panels plus insulated and isolated bus, and it integrates our new state-of-the-art EntelliGuard® breaker-trip unit system. It also features an optimized footprint so that it now fits into a smaller area for the most common configurations",
+                  "offerings": [
+                    "LV & MV switchgear",
+                    "distribution boards and motor control <41kV"
+                  ],
+                  "contacts": [
+                    {
+                      "name": "Dylan Reilly",
+                      "email": "dylan.reilly@ge.com",
+                      "area": "",
+                      "phone": "+61450295075"
+                    }
+                  ],
+                  "videoUrl": "",
+                  "ppUrl": "",
+                  "ooUlr": "",
+                  "tags": []
+                },
+                {
+                  "name": "TRANSFER SWITCHES",
+                  "statement": "Fully Automatic, Transparent Dual-Source Switching - GE is a key supplier of static transfer switches to a wide range of industries. The GE static transfer switch supplies critical loads with a choice between two available sources of electrical power. By continually monitoring power quality, the switch automatically transfers to an alternate source without interruption of power to even your most sensitive critical loads.",
+                  "offerings": [
+                    "Transfer Switches - transfer time of less than 4ms"
+                  ],
+                  "contacts": [
+                    {
+                      "name": "Dylan Reilly",
+                      "email": "dylan.reilly@ge.com",
+                      "area": "",
+                      "phone": "+61450295075"
+                    }
+                  ],
+                  "videoUrl": "",
+                  "ppUrl": "",
+                  "ooUlr": "",
+                  "tags": []
+                },
+                {
+                  "name": "UPS",
+                  "statement": "GE's UPS product category provide compact, lightweight and cost-effective Uninterruptible Power Supply (UPS) that connects between the main power supply and your critical load to ensure a clean, constant and reliable source of power. The product protects your hardware and data and ensures operations are reliably maintained.",
+                  "offerings": [
+                    "UPS (single and three phase) - Up to 600kVA"
+                  ],
+                  "contacts": [
+                    {
+                      "name": "Dylan Reilly",
+                      "email": "dylan.reilly@ge.com",
+                      "area": "",
+                      "phone": "+61450295075"
+                    }
+                  ],
+                  "videoUrl": "",
+                  "ppUrl": "",
+                  "ooUlr": "",
+                  "tags": []
+                }
+              ]
+            },
+            {
+              "name": "AUTOMATION & CONTROL",
+              "statement": "To enable customers in energy and manufacturing to optimize equipment performance and ensure reliable and efficient operations by connecting their machines, data, insights and people. To harness the power of the Industrial Internet for our customers, helping them solve their most complicated business challenges",
+              "offerings": [
+                "Critical control solutions and PLC",
+                "Shop Floor HMI and Touch panels",
+                "Industrial PCs"
+              ],
+              "contacts": [
+                {
+                  "name": "Jason Sherwood",
+                  "area":"",
+                  "email": "jason.sherwood@ge.com",
+                  "phone": "+61 409982467"
+                },
+                {
+                  "name": "Jason Lee",
+                  "area":"",
+                  "email": "jason.lee2@ge.com",
+                  "phone": "+61 437820319"
+                }
+              ],
+              "videoUrl": "",
+              "ppUrl": "",
+              "ooUlr": ""
+            }
+          ]
+        },
+        {
+          "name": "POWER",
+          "type": "parent",
+          "statement": "Power is the division within GE that is responsible for developing, selling and maintaining Gas Turbines, Steam Turbines and Boilers, Nuclear Reactors, Reciprocating (piston) Engines and Water Treatment technologies and chemicals. With the exception of those Water Treatment technologies and chemicals, Power's technologies and services are generally centered around non-renewable fuel sources (such as fossil fuels) for the purposes of generating electricity at the commercial and utility scale.",
+          "contactName": "",
+          "contactEmail": "",
+          "contactPh": "",
+          "children": [
+            {
+              "name": "GAS POWER SYSTEMS",
+              "statement": "Gas Power Systems is the department within Power which is responsible for developing, and selling Gas and Steam Turbines and Boilers for utility scale power generation.It offers transportable gas turbines for rapid deployment and installation as well as larger fixed turbine and boiler technologies for applications requiring large amounts of power quickly and efficiently.Although its Steam Turbines can be used in renewable energy applications (such as geothermal), Gas Power Systems is centered around the use of non-renewable fuel sources (such as fossil fuels) and can often combust a variety of hydrocarbon liquids and gases.",
+              "contacts": [
+                {
+                  "name": "Milan Rendulic",
+                  "email": "milan.rendulic@ge.com",
+                  "area": "",
+                  "phone": "+61408370333"
+                }
+              ],
+              "offerings": [
+                "Units from 20MW to 520MW"
+              ],
+              "videoUrl": "",
+              "ppUrl": "",
+              "ooUlr": ""
+            },
+            {
+              "name": "POWER SERVICES",
+              "statement": "Power Services is the department within Power which is responsible for commissioning, maintaining and enhancing the product portfolio offered by Gas Power Systems (i.e. Gas and Steam Turbines and Boilers).",
+              "contacts": [
+                {
+                  "name": "Paul Crooymans",
+                  "email": "paul.crooymans@ge.com",
+                  "area": "",
+                  "phone": "+610477356252"
+                }
+              ],
+              "offerings": [
+                "Units from 20MW to 520MW"
+              ],
+              "videoUrl": "",
+              "ppUrl": "",
+              "ooUlr": "",
+              "tags": []
+            },
+            {
+              "name": "WATER AND DISTRIBUTED POWER",
+              "statement": "Water & Distributed Power are affectively two descrete business opertating with a common CEO under the greater Power division.Water is responsible for..Distributed Power is responsible for developing, selling and maintaining reciprocating (piston) engines used for power generation and mechanical drive applications.",
+              "contacts": [],
+              "offerings": [
+                "NA"
+              ],
+              "type": "parent",
+              "children": [
+                {
+                  "name": "DISTRIBUTED POWER",
+                  "statement": "Distributed Power is the department within Power responsible for reciprocating (piston) engines.Its Jenbacher engines can burn a variety of gases and target the power generation space where efficiency is paramount. There is one model available for diesel applications.Its Waukesha engines can burn gases with greater variability. Although they can be used in some power generation applications they tend to be used in driving other mechanical devices (namely compressors in the O&G sector).These products and services are channelled through Authorized Channel Partners in ANZ.",
+                  "contacts": [
+                    {
+                      "name": "Bart Simes",
+                      "email": "bart.simes@ge.com",
+                      "area": "",
+                      "phone": "+61417299528"
+                    }
+                  ],
+                  "offerings": [
+                    "Units from 230kW to 9.5MW"
+                  ],
+                  "videoUrl": "",
+                  "ppUrl": "",
+                  "ooUlr": "",
+                  "tags": []
+                },
+                {
+                  "name": "Chemical & Monitoring Solutions",
+                  "statement": "The expertise to solve our customers’ toughest water and process challenges wherever they occur.",
+                  "contacts": [
+                    {
+                      "name": "GV, Ashok",
+                      "area": "Sales",
+                      "email": "ashok.gv@ge.com",
+                      "phone": "+61467711188"
+                    },
+                    {
+                      "name": "Stuart  Searchfield",
+                      "area": "Supply Chain",
+                      "email": "stuart.searchfield@ge.com",
+                      "phone": "+610420956427"
+                    },
+                    {
+                      "name": "Angela Alexandru",
+                      "area": "Customer Service",
+                      "email": "Angela.Alexandru@ge.com",
+                      "phone": "+61414845212"
+                    }
+                  ],
+                  "offerings": [
+                    "•Cooling Chemistries",
+                    "•Boiler Chemistries",
+                    "•Wastewater Chemistries",
+                    "•Fuel Oil Treatment",
+                    "•Hydrocarbon Process Chemistries",
+                    "•Industrial Process Chemistries",
+                    "Knowledge Management & Monitoring Solutions"
+                  ],
+                  "videoUrl": "",
+                  "ppUrl": "",
+                  "ooUlr": "",
+                  "tags": []
+                },
+                {
+                  "name": "Engineered Systems",
+                  "statement": "The expertise to solve our customers’ toughest water and process challenges wherever they occur",
+                  "contacts": [
+                    {
+                      "name": "Christopher Harpham",
+                      "email": "Christopher.Harpham@ge.com",
+                      "area": "Sales",
+                      "phone": "+61439995345"
+                    }
+                  ],
+                  "offerings": [
+                    "Ultrafiltration/Membrane Bioreactor",
+                    "Mobile Water Solutions",
+                    "Water Outsourcing",
+                    "Thermal/Zero Liquid Discharge",
+                    "Reverse Osmosis/Electrolytic Systems ",
+                    "Filters & Membranes",
+                    "Advanced Biological Metals Removal (ABMet)",
+                    "Analytical Instruments"
+                  ],
+                  "videoUrl": "",
+                  "ppUrl": "",
+                  "ooUlr": "",
+                  "tags": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RENEWABLE ENERGY",
+          "image": "../images/romania-wind-turbines3.jpg",
+          "statement": "Renewable Energy is the division responsible for developing, selling and maintaining power generation technologies that are fueled by renewable energy sources (such as wind) at the commercial and utility scale.The primary portfolio includes both on and off-shore wind turbines and hydro turbines. There are products and services to support areas such as  solar, geothermal and tidal as well.Wind Turbines from 2MW-6MW",
+          "offerings": [
+            "Hydro Turbines from 10MW to 100+MW"
+          ],
+          "contacts": [
+            {
+              "name": "Jeff Hanson",
+              "email": "Jeff.Hanson1@ge.com",
+              "area": "",
+              "phone": "+61 409 254 886"
+            }
+          ],
+          "videoUrl": "",
+          "ppUrl": "",
+          "ooUlr": "",
+          "tags": [],
+          "type": "parent",
+          "children": [
+            {
+              "name": "Onshore wind",
+              "statement": "Onshore Wind is the department within Renewable Energy which is responsible for developing, selling and maintaining utility scale wind turbine generators for on-land applications.",
+              "contacts": [
+                {
+                  "name": "Peter Cowling",
+                  "email": "peter.cowling@ge.com",
+                  "area": "",
+                  "phone": "+61417562468"
+                }
+              ],
+              "offerings": [
+                "Turbines between 2MW-4MW"
+              ],
+              "contactName": [
+                ""
+              ],
+              "contactEmail": "",
+              "contactPh": "",
+              "videoUrl": "",
+              "ppUrl": "",
+              "ooUlr": "",
+              "tags": []
+            },
+            {
+              "name": "OFFSHORE WIND",
+              "statement": "Offshore Wind is the department within Renewable Energy which is responsible for developing, selling and maintaining utility scale wind turbine generators for on-water applications.",
+              "offerings": [
+                "6MW Turbines"
+              ],
+              "contacts": [
+                {
+                  "name": "Peter Cowling",
+                  "email": "peter.cowling@ge.com",
+                  "area": "",
+                  "phone": "+61417562468"
+                }
+              ],
+              "videoUrl": "",
+              "ppUrl": "",
+              "ooUlr": "",
+              "tags": []
+            },
+            {
+              "name": "HYDRO",
+              "statement": "Hydro is the department within Renewable Energy which is responsible for developing, selling and maintaining hydro turbine generators for the purposes of generating electricity at the commercial and utility scales",
+              "offerings": [
+                "Turbines from 10MW to 100+MW"
+              ],
+              "contacts": [
+                {
+                  "name": "Carlos Schellenberg",
+                  "email": "carlos.schellenberg@ge.com",
+                  "area": "",
+                  "phone": "66909803558"
+                },
+                {
+                  "name": "mark.scott1@ge.com",
+                  "email": "mark.scott1@ge.com",
+                  "area": "",
+                  "phone": "61419360064"
+                }
+              ],
+              "videoUrl": "",
+              "ppUrl": "",
+              "ooUlr": "",
+              "tags": []
+            },
+            {
+              "name": "OTHER RENEWABLES",
+              "statement": "Renewable Energy is also capable of supporting commercial and utility scale geothermal, solar and tital opportunities in some instances.",
+              "offerings": [
+                "NA"
+              ],
+              "contacts": [
+                {
+                  "name": "Peter Cowling",
+                  "email": "peter.cowling@ge.com",
+                  "area": "",
+                  "phone": "+61417562468"
+                }
+              ],
+              "videoUrl": "",
+              "ppUrl": "",
+              "ooUlr": "",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "name": "TRANSPORTATION",
+          "image": "../images/transport.png",
+          "statement": "GE Transportation is industrial leader and supplier to the rail, mining, marine, stationary power and drilling industries. Its solutions help customers deliver goods and services with greater speed and greater savings  using advanced manufacturing techniques, industry expertise and connected machines. This business has its headquarters in Chicago.",
+          "offerings": [],
+          "contacts": [],
+          "videoUrl": "",
+          "ppUrl": "",
+          "ooUlr": "",
+          "type": "parent",
+          "children": [
+            {
+              "name": "GLOBAL LOCOMOTIVE OPERATIONS",
+              "statement": "As a sub-business GLO is responsible for manufacturing diesel-electric locomotives.GLO has produced a succession of world-class models and developed advanced rail technology that reduces operating costs, decreases fuel use, minimizes downtime and complies with stringent emissions standards. Today, more than 17,000 of GE Transportation’s locomotives operate in 50 countries.",
+              "offerings": [
+                "EVO/Heavy Haul/4500-6000 HP/GEVO 12/16 Cyl/AC",
+                "EVOTier 4/Heavy Haul/4500 HP/GEVO 12 Cyl/AC",
+                "AC4400/Heavy haul/4500 HP/ 7FDL -16/AC ",
+                "Powerhaul PH37/medium haul/3700 HP/FDl16/AC",
+                "Dash9/Medium and heavy haul/ 4000-4400 HP/7FDL-16/DC",
+                "Dash8/medium haul/3000-4000 HP/7FDL-12/16/DC",
+                "Dash7/Medium haul/3000-3500 HP/FDL 16/DC "
+              ],
+              "contacts": [
+                {
+                  "name": "LEANNE STEWART",
+                  "area": "",
+                  "email": "LEANNE.STEWART@GE.COM",
+                  "phone": "+61409754198"
+                }
+              ],
+              "videoUrl": "",
+              "ppUrl": "",
+              "ooUlr": ""
+            },
+            {
+              "name": "GLOBAL SERVICES OPERATIONS",
+              "statement": "As a sub business ,Global locomotive services(GSO) provide customers with the right support right when they need it—with a goal of increasing product reliability,improving asset utilization and reducing operating expenses.Our comprehensive offerings include tailored service programs, high-quality parts for GE, EMD* and other locomotive platforms; overhaul, repair and upgrade services, and wreck repair. Our remote monitoring and diagnostics technologies are also playing a growing part in providing timely service to increase locomotive uptime.",
+              "offerings": [
+                "Technical support - e.g.onsite technical advisors",
+                "Material suppply - e.g. Scheduled, unscheduled parts supply",
+                "Logistics management - e.g.GE managed inventory",
+                "Labour supervision - e.g.Supervising craft labour",
+                "Infrastructure support - e.g.process improvement",
+                "Service guarantees - e.g. availability and reliability guarantees",
+                "Loco modernisation programs",
+                "AESS - Automation Engine Start and Stop"
+              ],
+              "contacts": [
+                {
+                  "name": "LEANNE STEWART",
+                  "area": "",
+                  "email": "LEANNE.STEWART@GE.COM",
+                  "phone": "+61409754198"
+                }
+              ],
+              "videoUrl": "",
+              "ppUrl": "",
+              "ooUlr": ""
+            },
+            {
+              "name": "DIGITAL SOLUTIONS",
+              "type": "parent",
+              "statement": "As a sub-business, Digital solutions business offers software solutions for rail and mining customers  focused on critical outcomes that help manage and optimize Transportation assets, increase utilization, reduce dwell time, save fuel, and increase velocity.",
+              "offerings": [],
+              "contacts": [
+                {
+                  "name": "LEANNE STEWART",
+                  "area": "",
+                  "email": "LEANNE.STEWART@GE.COM",
+                  "phone": "+61409754198"
+                }
+              ],
+              "videoUrl": "",
+              "ppUrl": "",
+              "ooUlr": "",
+              "children": [
+                {
+                  "name": "TRAIN PERFORMANCE",
+                  "statement": "As a sub-business of digital solutions, this enables mobile datacentre capability on the locomotive with industry leading optimisation solutions such as trip optimiser which can deliver substantial cost savings to our customers.",
+                  "offerings": [
+                    "GoLINC - GoLINC is an industry-tested network, communication, and application management platform for the railroad environment. ",
+                    "LOCOTROL Distributed Power System  - It is a proven control and communication system that enables coordinated braking and traction power distribution between lead and remote locomotives",
+                    "Trip Optimizer is an intelligent, fuel-saving cruise control for locomotive that optimizes fuel consumption based on a specific train’s make up and the route traveled offering 3%-17% fuel savings",
+                    "Smart HPT ",
+                    "locovision",
+                    "Rail integrity monitoring"
+                  ],
+                  "contacts": [
+                    {
+                      "name": "SHANE HINGST",
+                      "area": "",
+                      "email": "SHANE.HINGST@GE.COM",
+                      "phone": "+61449954553"
+                    }
+                  ],
+                  "videoUrl": "",
+                  "ppUrl": "",
+                  "ooUlr": "",
+                  "tags": []
+                },
+                {
+                  "name": "OPTIMISATION SOLUTIONS",
+                  "statement": "As a sub-business of digital solutions, this offers a range of optimisation and automation solutions for rail road operators. Key applications of the software include rail network optimsiation, document and asset management and automation of train operations.",
+                  "offerings": [
+                    "Movement planner - this software solution addressess real time line of road planning and execution. It is used to optimise customers rail network helping reduce network congestion and increase capacity without laying further capital investment.",
+                    "Yard Planner - is an advanced software solution that provides for real-time planning and optimization of a rail classification yard. It helps train masters and yardmasters visualize yard state and plan yard activities and make optimal decisions on asset utilization and resource allocation.",
+                    "RailDOCS - is a cloud-based mobile software platform for configuration management, testing, inspecting, reporting and maintaining track, signal, bridge and communications equipment. It also provides the means to track and manage signal, train crew and dispatcher employee time and availability.",
+                    "ShipperConnect - This software helps industrial rail shippers automate rail operations, obtain shipment visibility and manage transportation assets and inventory. ",
+                    "OASIS - is a leading Intermodal terminal operating system which allows operators to enhance yard and gate efficiency, reduce OpEx, increase yard equipment utilization, boost throughput to increase capacity, minimize errors and improve customer services. The system is estimated to save $2/lift in operating costs. ",
+                    "RailConnect TMS  automates daily railroad processes that were previously manual, paper based, and labor intensive. TMS facilitates the seamless interchange of rail traffic between multiple railways."
+                  ],
+                  "contacts": [
+                    {
+                      "name": "SHANE HINGST",
+                      "area": "",
+                      "email": "SHANE.HINGST@GE.COM",
+                      "phone": "+61449954553"
+                    }
+                  ],
+                  "videoUrl": "",
+                  "ppUrl": "",
+                  "ooUlr": "",
+                  "tags": []
+                },
+                {
+                  "name": "CUSTOMER ANALYTICS",
+                  "statement": "As a sub-business of digital solutions, this offers custom software development for our customers. Using Predix as the foundation, we can now develop custom software aligned with our customers needs.",
+                  "offerings": [
+                    "Locolink -  provides centralized monitoring of locomotive health status and performance in real time.",
+                    "This enables GE to determine root cause of failures while in-transit, and provide timely maintenance and repair recommendations.",
+                    "Customer predix based software development."
+                  ],
+                  "contacts": [
+                    {
+                      "name": "SHANE HINGST",
+                      "area": "",
+                      "email": "SHANE.HINGST@GE.COM",
+                      "phone": "+61449954553"
+                    }
+                  ],
+                  "videoUrl": "",
+                  "ppUrl": "",
+                  "ooUlr": "",
+                  "tags": []
+                }
+              ]
+            },
+            {
+              "name": "MARINE AND STATIONARY DRILLING",
+              "statement": "As a sub-business, this business encompasses offerings in 3 keys areas - Marine, Drilling and stationary power. Marine Solutions is dedicated to power and propulsion systems for customers in the workboat, merchant, offshore and naval industries. Stationary power offer solutions fpr fuel efficiency, low lifecycle costs and low emissions.Drilling offer GE's  Electric motors for the harshest onshore and offshore applications for the oil and gas industry.",
+              "offerings": [
+                "250 Diesel Engines and Generator Sets",
+                "V228 Diesel Engines and Generator Sets",
+                "AC Drill Rig Motors - 1150-1500 HP motors",
+                "DC Drill Rig Motors - 752 DC motors.",
+                "L250 Marine Engine Tier 3/IMO Tier II",
+                "V228 Series Diesel Engines",
+                "V250 Diesel Engine"
+              ],
+              "contacts": [
+                {
+                  "name": "JOSHUA SAKELD",
+                  "area": "",
+                  "email": "JOSHUA.SAKELD@GE.COM",
+                  "phone": "+61481616597"
+                }
+              ],
+              "videoUrl": "",
+              "ppUrl": "",
+              "ooUlr": ""
+            },
+            {
+              "name": "MINING",
+              "type": "parent",
+              "statement": "As a sub-business, GE Mining help businesses through every step of the mining process.  Solutions are designed to address customer challenges such as productivity, efficieny and safety.",
+              "offerings": [],
+              "contacts": [
+                {
+                  "name": "JOSHUA SAKELD",
+                  "area": "",
+                  "email": "JOSHUA.SAKELD@GE.COM",
+                  "phone": "+61481616597"
+                }
+              ],
+              "videoUrl": "",
+              "ppUrl": "",
+              "ooUlr": "",
+              "children": [
+                {
+                  "name": "MINING SERVICES",
+                  "statement": "As a sub-business of mining, This is the Contracting and mining equipment hire business. Equipment supply from this business helps customers with production, over burden and site related civil work.",
+                  "offerings": [
+                    "Trucks - 40 - 240 tonnes",
+                    "Excavators - 33 - 600 tonnes"
+                  ],
+                  "contacts": [
+                    {
+                      "name": "MATTHEW MCKENZIE",
+                      "area": "",
+                      "email": "MATTHEW.MCKENZIE@GE.COM",
+                      "phone": "+61408065200"
+                    }
+                  ],
+                  "videoUrl": "",
+                  "ppUrl": "",
+                  "ooUlr": "",
+                  "tags": []
+                },
+                {
+                  "name": "UNDERGROUND MINING EQUIPMENT",
+                  "statement": "As a sub-business of mining,Core focus of GE’s mining equipment business, GE Mining Industrea, is to provide whole of mine solutions to improve mining productivity and safety.",
+                  "offerings": [
+                    "GE Fairchild Battery Powered Load Haul Dump",
+                    "GE Fairchild Battery Powered Scoops",
+                    "GE Fairchild Battery Powered Shield Hauler",
+                    "GE Fairchild Diesel Powered Scoops",
+                    "GE Fairchild F330 Continuous Miner",
+                    "GE Fairchild Hi-Cap XL Continuous Haulage System",
+                    "GE Fairchild Maintenance Vehicles & Centers",
+                    "GE Fairchild Multi-Purpose Vehicle Series",
+                    "GE Fairchild Propulsion Systems",
+                    "GE Mining Industrea Mine Dozer DZR",
+                    "GE Mining Industrea Flitmate",
+                    "GE Mining Industrea GE Mining Equipment Chock Carrier",
+                    "GE Mining Industrea Load Haul Dump Loader LHD",
+                    "GE Mining Industrea Mine Cruiser Mk7.0",
+                    "GE Mining Industrea Technology",
+                    "GE Mining Industrea Utility Vehicle IUV"
+                  ],
+                  "contacts": [
+                    {
+                      "name": "MATTHEW MCKENZIE",
+                      "area": "",
+                      "email": "MATTHEW.MCKENZIE@GE.COM",
+                      "phone": "+61408065200"
+                    }
+                  ],
+                  "videoUrl": "",
+                  "ppUrl": "",
+                  "ooUlr": "",
+                  "tags": []
+                },
+                {
+                  "name": "PROPULSION SYSTEMS",
+                  "statement": "As a sub-business of mining,GE Mining integrated mining propulsion systems enables customers to increase productivity, reduce maintenance costs and improve performance at a time when companies need it most.",
+                  "offerings": [
+                    "150 AC Drive Systems",
+                    "200 AC Drive Systems",
+                    "240 AC Drive System",
+                    "320 AC Drive System",
+                    "360 AC Drive System"
+                  ],
+                  "contacts": [
+                    {
+                      "name": "Christopher Duhamel",
+                      "area": "",
+                      "email": "christopher.duhamel@ge.com",
+                      "phone": "+61429120674"
+                    }
+                  ],
+                  "videoUrl": "",
+                  "ppUrl": "",
+                  "ooUlr": "",
+                  "tags": []
+                },
+                {
+                  "name": "MINING SOLUTIONS",
+                  "statement": "As a sub-business of mining,The Mining Solutions business leverage the GE store and works with customers to provide tailored solutions that help reduce costs and enhance operational efficiencies.",
+                  "offerings": [
+                    "Remote Distributed Power: e.g.LNG",
+                    "Electrolyte Cogeneration",
+                    "Capital Expenditure to Operational Expenditure: alternate financing structures such as leases",
+                    "Potash Mining: e.g use water reverse osmosis to increase energy efficiency.",
+                    "Concentrate Drying: Replaces inefficient fossil fuels systems by using gas turbines to dry copper.",
+                    "Mine Electrification: Using RailConnect 360 as a single point of contact, will allow for more energy efficient equipment, as well as increased cost and time savings.",
+                    "Tailings to Energy:  Will test producing energy through tailings waste."
+                  ],
+                  "contacts": [
+                    {
+                      "name": "TIM MOORE",
+                      "area": "",
+                      "email": "TIM.MOORE@GE.COM",
+                      "phone": "+61466535030"
+                    }
+                  ],
+                  "videoUrl": "",
+                  "ppUrl": "",
+                  "ooUlr": "",
+                  "tags": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "OIL AND GAS",
+          "image": "../images/getty_685.jpg",
+          "type": "parent"
+        }
+      ]
+    },
+    {
+      "name": "By Industry",
+      "root": true,
+      "type": "rootparent",
+      "children": [
+        {
+          "name": "Oil & Gas",
+          "type": "parent",
+          "image": "../images/getty_685.jpg",
+          "children": [
+            {
+              "name": "Extraction - Subsea and Offshore",
+              "items": [
+                {
+                  "name": "Subsea & Offshore",
+                  "items": [
+                    {
+                      "name": "Flexible Pipe solutions"
+                    },
+                    {
+                      "name": "Offshore Production"
+                    },
+                    {
+                      "name": "Offshore Turbomachinery"
+                    },
+                    {
+                      "name": "Subsea Power & Processing"
+                    },
+                    {
+                      "name": "Subsea Production Control Systems"
+                    },
+                    {
+                      "name": "Subsea Services"
+                    },
+                    {
+                      "name": "Subsea Trees, Manifolds & Connection Systems"
+                    },
+                    {
+                      "name": "Subsea Wellheads, Specialty Connectiors & Pipe"
+                    },
+                    {
+                      "name": "Surface Wellheads & Flow Control "
+                    }
+                  ],
+                  "contact": "Price, Derek (GE Oil & Gas)",
+                  "contactEmail": "Derek.Price@ge.com",
+                  "contactPhone": "0444 123 345"
+                },
+                {
+                  "name": "Grid Solutions",
+                  "items": [
+                    {
+                      "name": "Grid Automation"
+                    }
+                  ],
+                  "contact": "Ferdinands, Edric (GE Energy Connections)",
+                  "contactEmail": "Edric.Ferdinands@ge.com",
+                  "contactPhone": "0444 123 345"
+                },
+                {
+                  "name": "Industrial Solutions",
+                  "items": [
+                    {
+                      "name": "MV switch gear"
+                    }
+                  ],
+                  "contact": "Reilly, Dylan (GE Energy Connections)",
+                  "contactEmail": "dylan.reilly@ge.com",
+                  "contactPhone": "0412 234 456"
+                }
+              ]
+            },
+            {
+              "name": "Drilling",
+              "image": "../images/rig.jpg",
+              "items": [
+                {
+                  "name": "Drilling",
+                  "items": [
+                    {
+                      "name": "Drilling Measurement Solutions"
+                    },
+                    {
+                      "name": "Logging Services"
+                    },
+                    {
+                      "name": "Offshore Drilling"
+                    },
+                    {
+                      "name": "Onshore Drilling"
+                    },
+                    {
+                      "name": "Wireline Technology"
+                    }
+                  ],
+                  "contact": "Price, Derek (GE Oil & Gas)",
+                  "contactEmail": "Derek.Price@ge.com",
+                  "contactPhone": "0444 123 345"
+                },
+                {
+                  "name": "Water",
+                  "items": [
+                    {
+                      "name": "Ground water treatement"
+                    }
+                  ],
+                  "contact": "GV, Ashok (GE Power)",
+                  "contactEmail": "ashok.gv@ge.com",
+                  "contactPhone": "0444 123 345"
+                },
+                {
+                  "name": "Distrbuted Power",
+                  "items": [
+                    {
+                      "name": "Resiprocating engine for Mechanical drive or Power Generation"
+                    }
+                  ],
+                  "contact": "Simes, Bartholomew W (GE Power)",
+                  "contactEmail": "bart.simes@ge.com",
+                  "contactPhone": "0412 234 456"
+                }
+              ]
+            },
+            {
+              "name": "Production",
+              "items": [
+                {
+                  "name": "Liquefied Natural Gas",
+                  "items": [
+                    {
+                      "name": "Gas Liquefaction"
+                    },
+                    {
+                      "name": "Balance of Plant"
+                    }
+                  ],
+                  "contact": "Van bueren, Brian (GE Oil & Gas)",
+                  "contactEmail": "Brian.Vanbueren@ge.com",
+                  "contactPhone": "0444 123 345"
+                },
+                {
+                  "name": "Distributed Power",
+                  "items": [
+                    {
+                      "name": "Resiprocating engine for Mechanical drive or Power Generation"
+                    }
+                  ],
+                  "contact": "Simes, Bartholomew W (GE Power)",
+                  "contactEmail": "bart.simes@ge.com",
+                  "contactPhone": "0444 123 345"
+                },
+                {
+                  "name": "Gas Power systems",
+                  "items": [
+                    {
+                      "name": "Gas Turbines for mechinical drives and power Generations"
+                    }
+                  ],
+                  "contact": "Rendulic, Milan (GE Power)",
+                  "contactEmail": "milan.rendulic@ge.com",
+                  "contactPhone": "0412 234 456"
+                },
+                {
+                  "name": "Power Services",
+                  "items": [
+                    {
+                      "name": "Services & Maintenance of Gas Power systems "
+                    }
+                  ],
+                  "contact": "Ellis, Scott William (GE Power)",
+                  "contactEmail": "ScottW.Ellis@ge.com",
+                  "contactPhone": "0412 234 456"
+                },
+                {
+                  "name": "Water",
+                  "items": [
+                    {
+                      "name": "Waste Water treatement"
+                    },
+                    {
+                      "name": "Cooling systems"
+                    },
+                    {
+                      "name": "Boiler Water treatement"
+                    },
+                    {
+                      "name": "Water Chemicals & remote monitoring"
+                    },
+                    {
+                      "name": "Oil refiner chemicals"
+                    }
+                  ],
+                  "contact": "GV, Ashok (GE Power)",
+                  "contactEmail": "ashok.gv@ge.com",
+                  "contactPhone": "0412 234 456"
+                },
+                {
+                  "name": "Industrial Solutions",
+                  "items": [
+                    {
+                      "name": "MV switch gear"
+                    }
+                  ],
+                  "contact": "Reilly, Dylan (GE Energy Connections)",
+                  "contactEmail": "dylan.reilly@ge.com",
+                  "contactPhone": ""
+                },
+                {
+                  "name": "Oilfield",
+                  "items": [
+                    {
+                      "name": "Artificial Lift"
+                    },
+                    {
+                      "name": "Drilling Measurement solutions"
+                    },
+                    {
+                      "name": "Gas processing & Compression"
+                    },
+                    {
+                      "name": "Logging Services"
+                    },
+                    {
+                      "name": "Oilfield Production"
+                    },
+                    {
+                      "name": "Surface Flow Control "
+                    },
+                    {
+                      "name": "Surface Well Control"
+                    },
+                    {
+                      "name": "Wireline Technology"
+                    }
+                  ],
+                  "contact": "McGrath, Neil (GE Oil & Gas)",
+                  "contactEmail": "Neil.McGrath@ge.com",
+                  "contactPhone": ""
+                }
+              ]
+            },
+            {
+              "name": "Transport & storage"
+            }
+          ]
+        },
+        {
+          "name": "MINING",
+          "type": "parent",
+          "image": "",
+          "children": [
+            {
+              "name": "EXPLORATION"
+            },
+            {
+              "name": "DEVELOPMENT"
+            },
+            {
+              "name": "EXTRACTION"
+            },
+            {
+              "name": "MINERAL PROCESSING"
+            },
+            {
+              "name": "SMELTING AND LEACHING"
+            },
+            {
+              "name": "REFINING"
+            }
+          ]
+        },
+        {
+          "name": "RAIL",
+          "type": "parent",
+          "image": "",
+          "children": [
+            {
+              "name": "ABOVE RAIL"
+            },
+            {
+              "name": "BELOW RAIL"
+            },
+            {
+              "name": "TERMINALS"
+            },
+            {
+              "name": "PORTS"
+            }
+          ]
+        },
+        {
+          "name": "MARINE",
+          "type": "parent",
+          "image": "",
+          "children": [
+            {
+              "name": "SHORE ENTERPRISES"
+            },
+            {
+              "name": "OFFSHORE OPERATIONS"
+            },
+            {
+              "name": "SHIP BUILDERS"
+            }
+          ]
+        },
+        {
+          "name": "POWER",
+          "type": "parent",
+          "image": "",
+          "children": [
+            {
+              "name": "FUEL SUPPLY"
+            },
+            {
+              "name": "GENERATION"
+            },
+            {
+              "name": "TRANSMISSION"
+            },
+            {
+              "name": "DISTRIBUTION"
+            },
+            {
+              "name": "DEMAND & USAGE"
+            }
+          ]
+        },
+        {
+          "name": "WATER",
+          "type": "parent",
+          "image": "",
+          "children": [
+            {
+              "name": "PRODUCTION"
+            },
+            {
+              "name": "COLLECTION AND STORAGE"
+            },
+            {
+              "name": "PROCESS AND MANUFACTURING"
+            },
+            {
+              "name": "DISTRIBUTION"
+            },
+            {
+              "name": "RETAIL"
+            }
+          ]
+        },
+        {
+          "name": "COMMERCIAL AND INDUSTRIAL",
+          "type": "parent",
+          "image": "",
+          "children": [
+            {
+              "name": "CITIES",
+              "children": [
+                {
+                  "name": "PLANNING"
+                },
+                {
+                  "name": "MANAGEMENT"
+                },
+                {
+                  "name": "INFRASTRUCTURE"
+                },
+                {
+                  "name": "CONSTRUCTION"
+                }
+              ]
+            },
+            {
+              "name": "COMMERCIAL INDUSTRIALS",
+              "children": [
+                {
+                  "name": "PRODUCTION"
+                },
+                {
+                  "name": "PROCESSING"
+                },
+                {
+                  "name": "DISTRIBUTION"
+                },
+                {
+                  "name": "CONSUMPTION"
+                }
+              ]
+            },
+            {
+              "name": "RETAIL",
+              "children": [
+                {
+                  "name": "PRODUCTION"
+                },
+                {
+                  "name": "PROCESSING"
+                },
+                {
+                  "name": "DISTRIBUTION"
+                },
+                {
+                  "name": "CONSUMPTION"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "HEALTHCARE",
+          "type": "parent",
+          "children": [
+            {
+              "name": "MONITORING AND PREVENTION"
+            },
+            {
+              "name": "DIAGNOSING"
+            },
+            {
+              "name": "TREATMENT"
+            },
+            {
+              "name": "RECOVERY AND REHABILITATION"
+            },
+            {
+              "name": "MONITORING AND MANAGING"
+            },
+            {
+              "name": "RESEARCH"
+            }
+          ]
+        },
+        {
+          "name": "ROAD",
+          "type": "parent",
+          "children": [
+            {
+              "name": "MOBILE PLANT"
+            },
+            {
+              "name": "FIXED PLANT"
+            }
+          ]
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "type": "parent",
+          "children": [
+            {
+              "name": "RESEARCH"
+            }
+          ]
+        },
+        {
+          "name": "AVIATION",
+          "type": "parent"
+        }
+      ]
+    },
+    {
+      "name": "Key Account Managers",
+      "root": true,
+      "type": "rootparent",
+      "children": [
+        {
+          "name": "Rio Tinto",
+          "type": "parent",
+          "children": [
+            {
+              "name": "Jonathan Borthwick"
+            }
+          ]
+        },
+        {
+          "name": "BHP Billiton",
+          "type": "parent",
+          "children": [
+            {
+              "name": "Jonathan Borthwick"
+            }
+          ]
+        },
+        {
+          "name": "Glencore",
+          "type": "parent",
+          "children": [
+            {
+              "name": "Gordon Crane"
+            }
+          ]
+        },
+        {
+          "name": "Adani",
+          "type": "parent",
+          "children": [
+            {
+              "name": "David Hanrahan"
+            }
+          ]
+        },
+        {
+          "name": "Woodside",
+          "type": "parent",
+          "children": [
+            {
+              "name": "Ruth Spittle"
+            }
+          ]
+        },
+        {
+          "name": "Santos",
+          "type": "parent",
+          "children": [
+            {
+              "name": "Ian Beattie"
+            }
+          ]
+        },
+        {
+          "name": "Origin",
+          "type": "parent",
+          "children": [
+            {
+              "name": "Gary Macdonald"
+            }
+          ]
+        },
+        {
+          "name": "AGL",
+          "type": "parent",
+          "children": [
+            {
+              "name": "Christophe Galland"
+            }
+          ]
+        },
+        {
+          "name": "Fonterra",
+          "type": "parent",
+          "children": [
+            {
+              "name": "Steve Attkins"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
