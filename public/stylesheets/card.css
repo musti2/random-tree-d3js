@@ -74,14 +74,10 @@
   }
   .card_body.active .card-layout {
     height: 100%;
-    overflow-y: hidden; !important;
+    overflow-y: scroll !important;
   }
   .card.active:hover img {
     opacity: 0.01;
-  }
-  .mdl-layout {
-    overflow-x: hidden !important;
-    overflow-y: hidden !important;
   }
   .mdl-layout__content {
     overflow-y: scroll !important;
@@ -157,11 +153,11 @@
 
     overflow: hidden;
 
-    -webkit-transition: height 0.3s ease-out, opacity 0.3s ease 0.5s, width 0.3s ease-out;
-    -moz-transition: height 0.3s ease-out, opacity 0.3s ease 0.5s, width 0.3s ease-out;
-    -ms-transition: height 0.3s ease-out, opacity 0.3s ease 0.5s, width 0.3s ease-out; /* IE10 is actually unprefixed */
-    -o-transition: height 0.3s ease-out, opacity 0.3s ease 0.5s, width 0.3s ease-out;
-    transition: height 0.3s ease-out, opacity 0.3s ease 0.5s, width 0.3s ease-out;
+    -webkit-transition: height 0.7s ease-out, opacity 0.7s ease 0.7s, width 0.7s ease-out;
+    -moz-transition: height 0.7s ease-out, opacity 0.7s ease 0.7s, width 0.7s ease-out;
+    -ms-transition: height 0.7s ease-out, opacity 0.7s ease 0.7s, width 0.7s ease-out; /* IE10 is actually unprefixed */
+    -o-transition: height 0.7s ease-out, opacity 0.7s ease 0.7s, width 0.7s ease-out;
+    transition: height 0.7s ease-out, opacity 0.7s ease 0.7s, width 0.7s ease-out;
   }
 
   .card_body .description {

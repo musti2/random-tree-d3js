@@ -12,6 +12,6 @@ module.exports = {
             'public/stylesheets/**/*.css',  // watch these files
             'test/e2e/**/*.js'
         ],
-        tasks: ['cssmin', 'jshint', 'karma'/*, 'vulcanize'*/]  // run these commands
+        tasks: ['clean','cssmin', 'jshint', 'karma'/*, 'vulcanize'*/]  // run these commands
     }
 };

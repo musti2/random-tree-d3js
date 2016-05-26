@@ -16,7 +16,6 @@ define(['angular',
         // ======================
 
         var combobox = document.querySelector('vaadin-combo-box');
-        var svgTemplate = document.getElementById('svgTemplate');
         var section = document.getElementById('section');
         var card1 = $('.card_body');
 
@@ -248,24 +247,26 @@ define(['angular',
                         }
                     }).on('mouseover', function(e) {
                         d3.select(this).style('fill', 'rgb(9,134,164)');
-                        if (e._children && !$scope.cardDisplayed){
-                            div.transition()
+                        if (e._children && !$scope.cardDisplayed && !e.name.includes('GE')){
+                            if (!e.name.includes('Business')){
+                                div.transition()
                                 .duration(200)
                                 .style('opacity', 0.9)
                                 .style('display', 'block');
-                            $scope.parentDetails = {
-                                parentName: e.name,
-                                context: e.name,
-                                statement: e.statement,
-                                contacts: e.contacts
-                            };
+                                $scope.parentDetails = {
+                                    parentName: e.name,
+                                    context: e.name,
+                                    statement: e.statement,
+                                    contacts: e.contacts
+                                };
+                            }
                         } else {
                             return;
                         }
                         $scope.$apply();
                     }).on('mouseout', function(e) {
                         div.transition().duration(1500).style('opacity', 0);
-                        div.transition().delay(1500).style('display', 'none');
+                        div.transition().delay(2250).style('display', 'none');
                         d3.select(this).style('fill', function(e){
                             return e.children || e._children ? '#fff' : 'rgb(255,249,141)';
                         });
