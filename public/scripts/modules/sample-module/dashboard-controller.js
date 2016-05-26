@@ -248,7 +248,7 @@ define(['angular',
                         }
                     }).on('mouseover', function(e) {
                         d3.select(this).style('fill', 'rgb(9,134,164)');
-                        if (e._children && !e.name.includes('GE') ||  !e.name.includes('Industry') && !$scope.cardDisplayed){
+                        if (e._children && !$scope.cardDisplayed){
                             div.transition()
                                 .duration(200)
                                 .style('opacity', 0.9)
@@ -264,7 +264,8 @@ define(['angular',
                         }
                         $scope.$apply();
                     }).on('mouseout', function(e) {
-                        div.transition().duration(0).style('display', 'none');
+                        div.transition().duration(1500).style('opacity', 0);
+                        div.transition().delay(1500).style('display', 'none');
                         d3.select(this).style('fill', function(e){
                             return e.children || e._children ? '#fff' : 'rgb(255,249,141)';
                         });

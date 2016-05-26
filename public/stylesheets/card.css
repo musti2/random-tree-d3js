@@ -74,7 +74,7 @@
   }
   .card_body.active .card-layout {
     height: 100%;
-    overflow-y: scroll !important;
+    overflow-y: hidden; !important;
   }
   .card.active:hover img {
     opacity: 0.01;
