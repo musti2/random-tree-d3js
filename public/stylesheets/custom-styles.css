@@ -53,9 +53,9 @@
     overflow-y: hidden;
     padding-right: 17px;
     position: relative;
-    -webkit-box-shadow: 0 -1px 14px 6px rgba(60, 61, 65, 0.69);
-    -moz-box-shadow: 0 -1px 14px 6px rgba(60, 61, 65, 0.69);
-    box-shadow: 0 -1px 14px 6px rgba(60, 61, 65, 0.69);
+    -webkit-box-shadow: -3px -1px 15px 0px rgba(70, 173, 0, .69);
+    -moz-box-shadow: -3px -1px 15px 0px rgba(70, 173, 0, .69);
+    box-shadow: -3px -1px 15px 0px rgba(70, 173, 0, .69);
     background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, .24) 0, rgba(0, 0, 0, .25) 100%);
     background-image: -mox-linear-gradient(top, rgba(0, 0, 0, .24) 0, rgba(0, 0, 0, .25) 100%);
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, .24) 0, rgba(0, 0, 0, .25) 100%)
@@ -63,8 +63,8 @@
   section:before {
     content: '';
     z-index: 0;
-    width: 150px;
-    height: 200px;
+    width: 120%;
+    height: 100px;
     position: absolute;
     top: 0;
     left: 0;
@@ -73,14 +73,14 @@
     transition: all .35s ease;
     background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .35) 100%);
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .35) 100%);
-    -webkit-transition-delay: 0.2s;
-    -moz-transition-delay: 0.2;
-    transition-delay: 0.2s;
-        -webkit-transform: skew(-45deg) translateX(-75%);
+    -webkit-transition-delay: .2s;
+    -moz-transition-delay: .2;
+    transition-delay: .2s;
+    -webkit-transform: skew(-45deg) translateX(-75%);
     transform: skew(-45deg) translateX(-75%);
-        -webkit-box-shadow: 25px 25px 60px 5px rgba(54, 62, 94, 0.5), 0 60px 100px 13px rgba(186, 208, 190, 0.26);
-    -moz-box-shadow: 25px 25px 60px 5px rgba(54, 62, 94, 0.5), 0 60px 100px 13px rgba(186, 208, 190, 0.26);
-    box-shadow: 25px 25px 60px 5px rgba(54, 62, 94, 0.5), 0 60px 100px 13px rgba(186, 208, 190, 0.26);
+    -webkit-box-shadow: -2px 0 10px -1px rgba(70, 173, 0, 1);
+    -moz-box-shadow: -2px 0 10px -1px rgba(70, 173, 0, 1);
+    box-shadow: 2px 0 10px 1px rgba(70, 173, 0, 1);
   }
 
   section:hover:before,
@@ -835,7 +835,7 @@
   /* D3 TREE NODE STYLING */
 
   .node text {
-    font-size: 2.4vh;
+    font-size: 2.5vmin;
     font-family: 'FontAwesome', 'GE Inspira';
     fill: #fff;
     color: #fff;
@@ -849,10 +849,23 @@
     stroke-width: 1.5px;
   }
 
+  @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+
+  /* The element to apply the animation to */
   path.link {
     fill: none;
-    stroke: #ccc;
-    stroke-width: 0.25px;
+    opacity: 1;
+    stroke: rgb(0,92,185);
+    stroke-width: 1px;
+    animation-name: example;
+    animation-duration: 4s;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s;
+    -moz-animation-name: example;
+    -moz-animation-duration: 4s;
   }
 
   div.contact {
@@ -1288,7 +1301,7 @@
   g circle.startNode {
     width: 80px;
     height: 80px;
-    fill: rgba(0, 92, 185, 1);
+    fill: rgba(70, 173, 0, 1);
     /** height is required as absolute value **/
     background-color: #F08080;
     border-radius: 100px;
@@ -1318,6 +1331,7 @@
     height: 80px;
     border-radius: 100px;
     background-color: #CD5C5C;
+    fill: rgb(255,152,33);
   }
 
   g circle.nodeCircle-last:after,
@@ -1335,9 +1349,8 @@
     -moz-animation: inner-ripple 2000ms linear infinite;
     animation: inner-ripple 2000ms linear infinite;
   }
+
   /* outer ripple */
-
-
   @keyframes pulse{
     0% {
       transform: scale(0.8);
@@ -1406,7 +1419,6 @@
       opacity: 0.5;
     }
   }
-
 
   @keyframes outer-ripple {
     0% {

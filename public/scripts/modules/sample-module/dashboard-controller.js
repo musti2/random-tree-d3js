@@ -279,7 +279,7 @@ define(['angular',
                 nodeUpdate.select('circle')
                     .attr('r', function (d){
                         if (d.name.includes('GE Store')){
-                            return 55;
+                            return 40;
                         } else {
                             return 20;
                         }
@@ -320,11 +320,13 @@ define(['angular',
                             source: o,
                             target: o
                         });
-                    })
-                    .transition().duration(duration).attr('d', diagonal);
+                    });
+
+
 
                 // Transition links to their new position.
                 link.transition().duration(duration).attr('d', diagonal);
+
                 // Transition exiting nodes to the parent's new position.
                 link.exit()
                     .transition()
