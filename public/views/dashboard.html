@@ -70,8 +70,7 @@
 			  <main class="mdl-layout__content">
 			    <div class="page-content">
 			    	<!-- statement -->
-					<p style="font-size: 12px !important;" class="u-ml+ u-mt+ u-mb0">
-						{{cardDetails.statement}}
+					<p style="font-size: 12px !important; padding-left: 10px;" class="u-ml+ u-mt+ u-mb0" ng-bind-html="cardDetails.statement">
 					</p>
 					<!-- offerings -->
 			    	<div class="flex flex--row u-ml+" id="{{cardDetails.$index}}" style="position: relative !important;">

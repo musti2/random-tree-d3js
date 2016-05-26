@@ -10,6 +10,11 @@ define(['angular', './sample-module'], function(angular, sampleModule) {
             return out;
         };
     });
+    sampleModule.filter('newlines', function(){
+        return function(text) {
+            return text.split(/\./g);
+        };
+    });
 
     return sampleModule;
 });

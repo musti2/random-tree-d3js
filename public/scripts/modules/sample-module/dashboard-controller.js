@@ -248,7 +248,7 @@ define(['angular',
                         }
                     }).on('mouseover', function(e) {
                         d3.select(this).style('fill', 'rgb(9,134,164)');
-                        if (e._children && !e.name.includes('Industry') && !$scope.cardDisplayed){
+                        if (e._children && !e.name.includes('GE') ||  !e.name.includes('Industry') && !$scope.cardDisplayed){
                             div.transition()
                                 .duration(200)
                                 .style('opacity', 0.9)
@@ -349,9 +349,6 @@ define(['angular',
                     d.y0 = d.y;
                 });
             }
-            for (i = 0; i < nodes.length; i++){
-                console.log(nodes[i]);
-            }
             // collapse
             function collapse(d) {
               if (d.children) {
@@ -392,6 +389,9 @@ define(['angular',
                     div.transition().duration(0).style('display', 'none');
                     $scope.cardDisplayed = true;
                     card1.addClass('active');
+
+
+                    // e.statement = e.statement.toString().replace(/\./g, '\n');
 
                     $scope.cardDetails = {
                         parentName: e.parent.name,

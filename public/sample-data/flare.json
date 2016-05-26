@@ -1032,8 +1032,156 @@
         },
         {
           "name": "OIL AND GAS",
+          "type": "parent",
           "image": "../images/getty_685.jpg",
-          "type": "parent"
+          "statement": "Pushing the boundaries  of technology in Oil & Gas to bring energy to the world",
+          "offerings": [
+            "Major Products : Surface & subsea drilling & Production systems, floating production platform equipment, mechanical drives & compressors, high-pressure reactors, artificial lift solutions, sensing & inspection solutions",
+            "Digital Solutions : Subsea systems optimization, intelligent pipeline solutions, Reliability Max, Field Vantage",
+            "Services : Contractual Services Agreement, Subsea Life of Field services, Rotating equipment upgrads, Onshore field services, Customer training"
+          ],
+          "contacts": [
+            {
+              "name": "Mary Hackett",
+              "area": "",
+              "email": "mary.hackett@ge.com",
+              "phone": "+61865957360"
+            }
+          ],
+          "videoUrl": "",
+          "ppUrl": "",
+          "ooUlr": "",
+          "tags": [],
+          "children": [
+            {
+              "name": "Subsea & Drilling",
+              "statement": "Provider of complete subsea drilling, completion and production solutions including subsea boosting, total oil field power plant",
+              "offerings": [
+                "•Subsea trees & wellheads",
+                "•Subsea power & processing",
+                "•Controls",
+                "•Manifolds",
+                "•Flexible risers",
+                "•Flow lines",
+                "•Specialty connectors & pipes",
+                "•Drilling risers",
+                "•Blow-out preventers"
+              ],
+              "contacts": [
+                {
+                  "name": "Derek Price",
+                  "area": "",
+                  "email": "derek.price@ge.com",
+                  "phone": "+61865957732"
+                }
+              ],
+              "videoUrl": "",
+              "ppUrl": "",
+              "ooUlr": "",
+              "tags": []
+            },
+            {
+              "name": "Surface",
+              "statement": "Major worldwide supplier of surface wellheads, frac systems & production tree equipment– covering all aspects of operations with advanced tools, skills & solutions",
+              "offerings": [
+                "•Electric submersible pumps",
+                "•Logging while drilling & wire line tools",
+                "•Surface wellheads & flow control",
+                "•Logging services",
+                "•Well Performance Services"
+              ],
+              "contacts": [
+                {
+                  "name": "Neil McGrath",
+                  "area": "",
+                  "email": "neil.mcgrath@ge.com",
+                  "phone": "+61882434744"
+                }
+              ],
+              "videoUrl": "",
+              "ppUrl": "",
+              "ooUlr": "",
+              "tags": []
+            },
+            {
+              "name": "Digital Solutions",
+              "statement": "Plant-wide machinery health services, repair & calibration services. Solutions that actively control, monitor and protect assets for optimization and analysis of potential performance issues.Solutions that utilize a diverse combination of sensor-based measurements to boost operational productivity & provide information for real-time decisions.Solutions that perform critical inspection and non-destructive testing to proactively diagnose and prevent potential and existing issues.",
+              "offerings": [
+                "•Asset condition monitoring, control sensing & inspection solutions",
+                "•Optimization & diagnostic software",
+                "•Pipeline inspection and integrity services",
+                "•Control & safety relief valves",
+                "•Fuel dispensers & payment terminals",
+                "•Fuel control & retail systems"
+              ],
+              "contacts": [
+                {
+                  "name": "Ahmed Elsherbini Ibrahim",
+                  "area": "",
+                  "email": "ahmed.ibrahim@ge.com",
+                  "phone": "+61865957389"
+                }
+              ],
+              "videoUrl": "",
+              "ppUrl": "",
+              "ooUlr": "",
+              "tags": []
+            },
+            {
+              "name": "Turbomachinery",
+              "statement": "Turbomachinery equipment and services for the upstream, midstream and LNG segments",
+              "offerings": [
+                "•Gas turbines",
+                "•Axial & centrifugal compressors",
+                "•Electric motor driven compressors",
+                "•Turn-key industrial modular solutions",
+                "•Turboexpanders & heat exchangers",
+                "•Contractual & maintenance services",
+                "•Upgrades & industrial applications",
+                "•Monitoring & diagnostics"
+              ],
+              "contacts": [
+                {
+                  "name": "Brian Vanbueren",
+                  "area": "",
+                  "email": "brian.vanbueeren@ge.com",
+                  "phone": "+61865957451"
+                },
+                {
+                  "name": "Jason Good",
+                  "area": "",
+                  "email": "jason.good@ge.com",
+                  "phone": "+61865957731"
+                }
+              ],
+              "videoUrl": "",
+              "ppUrl": "",
+              "ooUlr": "",
+              "tags": []
+            },
+            {
+              "name": "Downstream Technology Solutions",
+              "statement": "Equipment & services for the refinery & petrochemical, distributed gas and industrial applications including",
+              "offerings": [
+                "•Steam turbines",
+                "•Reciprocating compressors",
+                "•Distributed gas solutions – small LNG & CNG",
+                "•Pumps, valves & distribution systems",
+                "•Blowers & compressors",
+                "•Maintenance services & remote monitoring & diagnostics"
+              ],
+              "contacts": [{
+                "name": "Brian Vanbueren",
+                "area": "",
+                "email": "brian.vanbueeren@ge.com",
+                "phone": "+61865957451"
+              }],
+              "videoUrl": "",
+              "ppUrl": "",
+              "ooUlr": "",
+              "tags": []
+            }
+          ]
         }
       ]
     },
