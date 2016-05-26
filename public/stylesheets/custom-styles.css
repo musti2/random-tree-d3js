@@ -860,12 +860,23 @@
     opacity: 1;
     stroke: rgb(0,92,185);
     stroke-width: 1px;
-    animation-name: example;
-    animation-duration: 4s;
-    -webkit-animation-name: example;
-    -webkit-animation-duration: 4s;
-    -moz-animation-name: example;
-    -moz-animation-duration: 4s;
+    animation: pathcolors 2000ms ease-in-out infinite;
+    -webkit-animation: pathcolors 2000ms ease-in-out infinite;
+    -moz-animation: pathcolors 2000ms ease-in-out infinite;
+  }
+
+    /* Chrome, Safari, Opera */
+  @-webkit-keyframes pathcolors {
+      0%   {stroke: #0a9ec1;}
+      50%  {stroke: #0986a4;}
+      100% {stroke: #086e87;}
+  }
+
+  /* Standard syntax */
+  @keyframes pathcolors {
+      0%   {stroke: #0a9ec1;}
+      50%  {stroke: #0986a4;}
+      100% {stroke: #086e87;}
   }
 
   div.contact {

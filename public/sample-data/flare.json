@@ -144,25 +144,6 @@
                   "ppUrl": "",
                   "ooUlr": "",
                   "tags": []
-                },
-                {
-                  "name": "Mining Industrial Solutions",
-                  "statement": "Reliable, Efficient, and Continuous Operation:  Our comprehensive offerings have cross-functional applications throughout the mine site. Systems and equipment for power generation, automation and control, medium-voltage (MV) and low-voltage (LV) equipment, transformers, distribution equipment and drives work in all the key mining functions - operations, concentration and tailings, refining and pelletization, and transportation.",
-                  "offerings": [
-                    "NA"
-                  ],
-                  "contacts": [
-                    {
-                      "name": "Paul Kelly",
-                      "area": "",
-                      "email": "Paul.Kelly@ge.com",
-                      "phone": "+61419741466"
-                    }
-                  ],
-                  "videoUrl": "",
-                  "ppUrl": "",
-                  "ooUlr": "",
-                  "tags": []
                 }
               ]
             },
@@ -418,7 +399,7 @@
                   "tags": []
                 },
                 {
-                  "name": "UPS",
+                  "name": "UPS (Uninterruptible Power Supply)",
                   "statement": "GE's UPS product category provide compact, lightweight and cost-effective Uninterruptible Power Supply (UPS) that connects between the main power supply and your critical load to ensure a clean, constant and reliable source of power. The product protects your hardware and data and ensures operations are reliably maintained.",
                   "offerings": [
                     "UPS (single and three phase) - Up to 600kVA"
@@ -429,6 +410,25 @@
                       "email": "dylan.reilly@ge.com",
                       "area": "",
                       "phone": "+61450295075"
+                    }
+                  ],
+                  "videoUrl": "",
+                  "ppUrl": "",
+                  "ooUlr": "",
+                  "tags": []
+                },
+                {
+                  "name": "Mining Industrial Solutions",
+                  "statement": "Reliable, Efficient, and Continuous Operation:  Our comprehensive offerings have cross-functional applications throughout the mine site. Systems and equipment for power generation, automation and control, medium-voltage (MV) and low-voltage (LV) equipment, transformers, distribution equipment and drives work in all the key mining functions - operations, concentration and tailings, refining and pelletization, and transportation.",
+                  "offerings": [
+                    "NA"
+                  ],
+                  "contacts": [
+                    {
+                      "name": "Paul Kelly",
+                      "area": "",
+                      "email": "Paul.Kelly@ge.com",
+                      "phone": "+61419741466"
                     }
                   ],
                   "videoUrl": "",

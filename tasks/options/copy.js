@@ -14,7 +14,7 @@ module.exports = {
                     'images/*',
                     'sample-data/*',
                     'views/**/*',
-                    'stylesheets/main.min.css',
+                    'stylesheets/*',
                     'elements/**/*',
                     
                     '!scripts/modules/sample-module/draggable-tree-nodes.js',
