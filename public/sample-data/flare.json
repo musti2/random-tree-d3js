@@ -40,7 +40,7 @@
               "children": [
                 {
                   "name": "MOTORS",
-                  "statement": "GE manufactured motors and generators for some of the first commercial and industrial electrical applications. We continue to deliver innovative electrical and mechanical power solutions to the world. Our machines efficiently operate in challenging applications and severe environments where reliability and ease of maintenance is critical.",
+                  "statement": "GE manufactures motors and generators for some of the first commercial and industrial electrical applications. We continue to deliver innovative electrical and mechanical power solutions to the world. Our machines efficiently operate in challenging applications and severe environments where reliability and ease of maintenance is critical.",
                   "offerings": [
                     "Low Voltage Electric Motors 400V to 690V",
                     "Medium Voltage Electric Motors",
@@ -114,6 +114,49 @@
                       "email": "Jeff.Hanson1@ge.com",
                       "area": "",
                       "phone": "+61 409 254 886"
+                    }
+                  ],
+                  "videoUrl": "",
+                  "ppUrl": "",
+                  "ooUlr": "",
+                  "tags": []
+                },
+                {
+                  "name": "SERVICES",
+                  "statement": "With a comprehensive global network of service engineers and technicians, GE is uniquely positioned to provide the knowledge, experience and skills for your full range of industrial service requirements—protect assets, maintain critical processes, help minimize risks and help maximize productivity. We deliver original equipment spares around the world as well as repair, refurbish and upgrade customer systems with the latest technology. We offer risk protection through contractual services based on our system experience and sophisticated application calculations. Through advanced digital platforms, we deliver expert onsite and remote emergency 24/7 support, intervention, and planned maintenance customized to meet your unique requirements.",
+                  "offerings": [
+                    "Responsive Support",
+                    "Spare & Replacement Parts",
+                    "Contractual Services",
+                    "Modernizations & Upgrades",
+                    "Field Services & Repairs",
+                    "Training"
+                  ],
+                  "contacts": [
+                    {
+                      "name": "Ali Janani",
+                      "area": "",
+                      "email": "Alireza.Janani@ge.com",
+                      "phone": "+61414209454"
+                    }
+                  ],
+                  "videoUrl": "",
+                  "ppUrl": "",
+                  "ooUlr": "",
+                  "tags": []
+                },
+                {
+                  "name": "Mining Industrial Solutions",
+                  "statement": "Reliable, Efficient, and Continuous Operation:  Our comprehensive offerings have cross-functional applications throughout the mine site. Systems and equipment for power generation, automation and control, medium-voltage (MV) and low-voltage (LV) equipment, transformers, distribution equipment and drives work in all the key mining functions - operations, concentration and tailings, refining and pelletization, and transportation.",
+                  "offerings": [
+                    "NA"
+                  ],
+                  "contacts": [
+                    {
+                      "name": "Paul Kelly",
+                      "area": "",
+                      "email": "Paul.Kelly@ge.com",
+                      "phone": "+61419741466"
                     }
                   ],
                   "videoUrl": "",
@@ -406,13 +449,13 @@
               "contacts": [
                 {
                   "name": "Jason Sherwood",
-                  "area":"",
+                  "area": "",
                   "email": "jason.sherwood@ge.com",
                   "phone": "+61 409982467"
                 },
                 {
                   "name": "Jason Lee",
-                  "area":"",
+                  "area": "",
                   "email": "jason.lee2@ge.com",
                   "phone": "+61 437820319"
                 }
@@ -678,7 +721,26 @@
           "image": "../images/transport.png",
           "statement": "GE Transportation is industrial leader and supplier to the rail, mining, marine, stationary power and drilling industries. Its solutions help customers deliver goods and services with greater speed and greater savings  using advanced manufacturing techniques, industry expertise and connected machines. This business has its headquarters in Chicago.",
           "offerings": [],
-          "contacts": [],
+          "contacts": [
+            {
+              "name": "LEANNE STEWART",
+              "area": "RAIL",
+              "email": "LEANNE.STEWART@GE.COM",
+              "phone": "+61409754198"
+            },
+            {
+              "name": "Tim Moore",
+              "area": "MINING",
+              "email": "tim.moore@ge.com",
+              "phone": "+61466535030"
+            },
+            {
+              "name": "Jess Goh",
+              "area": "Marine",
+              "email": "jess.goh@ge.com",
+              "phone": "+6186916191"
+            }
+          ],
           "videoUrl": "",
           "ppUrl": "",
           "ooUlr": "",
@@ -1431,94 +1493,6 @@
         {
           "name": "AVIATION",
           "type": "parent"
-        }
-      ]
-    },
-    {
-      "name": "Key Account Managers",
-      "root": true,
-      "type": "rootparent",
-      "children": [
-        {
-          "name": "Rio Tinto",
-          "type": "parent",
-          "children": [
-            {
-              "name": "Jonathan Borthwick"
-            }
-          ]
-        },
-        {
-          "name": "BHP Billiton",
-          "type": "parent",
-          "children": [
-            {
-              "name": "Jonathan Borthwick"
-            }
-          ]
-        },
-        {
-          "name": "Glencore",
-          "type": "parent",
-          "children": [
-            {
-              "name": "Gordon Crane"
-            }
-          ]
-        },
-        {
-          "name": "Adani",
-          "type": "parent",
-          "children": [
-            {
-              "name": "David Hanrahan"
-            }
-          ]
-        },
-        {
-          "name": "Woodside",
-          "type": "parent",
-          "children": [
-            {
-              "name": "Ruth Spittle"
-            }
-          ]
-        },
-        {
-          "name": "Santos",
-          "type": "parent",
-          "children": [
-            {
-              "name": "Ian Beattie"
-            }
-          ]
-        },
-        {
-          "name": "Origin",
-          "type": "parent",
-          "children": [
-            {
-              "name": "Gary Macdonald"
-            }
-          ]
-        },
-        {
-          "name": "AGL",
-          "type": "parent",
-          "children": [
-            {
-              "name": "Christophe Galland"
-            }
-          ]
-        },
-        {
-          "name": "Fonterra",
-          "type": "parent",
-          "children": [
-            {
-              "name": "Steve Attkins"
-            }
-          ]
         }
       ]
     }

@@ -1207,22 +1207,29 @@
   }
 
   .flex-item-custom:nth-child(1) {
-      order: 0;
-      flex: 1 1 auto;
-      align-self: auto;
-      }
+    order: 0;
+    flex: 1 1 auto;
+    align-self: auto;
+  }
 
   .flex-item-custom:nth-child(2) {
-      order: 0;
-      flex: 1 0 auto;
-      align-self: auto;
-      }
+    order: 0;
+    flex: 1 0 auto;
+    align-self: auto;
+  }
 
   .flex-item-custom:nth-child(3) {
-      order: 0;
-      flex: 1 1 auto;
-      align-self: auto;
-      }
+    order: 0;
+    flex: 1 1 auto;
+    align-self: auto;
+  }
+
+  .flex-wrap {
+    flex-wrap: wrap !important;
+  }
+  .justify-center {
+    justify-content: center !important;
+  }
 
   g circle.ghostCircle {
     opacity: 0.2;

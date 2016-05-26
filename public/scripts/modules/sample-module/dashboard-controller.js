@@ -92,7 +92,7 @@ define(['angular',
                 root,
                 nodes;
 
-            var tree = d3.layout.cluster().size([h, w]).separation(function(a, b) {
+            var tree = d3.layout.cluster().size([800, 600]).separation(function(a, b) {
                 return ((a.parent == root) && (b.parent == root)) ? 3 : 1;
                 // return (a.parent == b.parent ? 1 : 2) / a.depth;
             });
@@ -109,9 +109,10 @@ define(['angular',
             var svgTemplate = document.getElementById('svgTemplate');
             //  keeping it simple here with only a transform translate, which simply pushes the whole g group over and down by x (0) y (45) amount.
             var vis = d3.select(svgTemplate).append('svg:g')
-                        .attr("transform", "translate(" + (1920 / 2 + 40) + "," + 0 + ")")
+                        .attr("transform", "translate(" + (1920 / 2 + -20) + "," + 0 + ")")
                         .attr('id', 'startNode');
 
+            $scope.startNodeClicked = false;
             var startNode = d3.select('#startNode').on('click', function(d){
                 d3.select(this).attr('transform', 'translate(' + 250 + ',' + 45 + ')');
             });
