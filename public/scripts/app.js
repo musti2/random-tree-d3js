@@ -18,7 +18,8 @@ define([
     'dragula',
     'px-timeseries',
     'd3',
-    'tweenMax'
+    'tweenMax',
+    'cssplugin'
 ], function ($, angular) {
     'use strict';
 
@@ -64,6 +65,12 @@ define([
             }
         });
         $rootScope.$state = $state;
+
+        TweenLite.to( CSSRulePlugin.getRule("section:before"), 1, {
+            cssRule:{width:'120%', height: '100px', top: '0'},
+            delay: 0,
+            ease: Linear.easeNone
+        });
 
     }]);
 

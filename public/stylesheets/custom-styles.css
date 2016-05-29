@@ -92,9 +92,10 @@
     padding-right: 17px;
     position: relative;
     overflow-y: auto;
-    -webkit-box-shadow: -3px -1px 15px 0px rgba(70, 173, 0, .69);
-    -moz-box-shadow: -3px -1px 15px 0px rgba(70, 173, 0, .69);
-    box-shadow: -3px -1px 15px 0px rgba(70, 173, 0, .69);
+    overflow-x: hidden;
+    -webkit-box-shadow: 2px 0 10px 1px rgba(1, 56, 70, 1);
+    -moz-box-shadow: 2px 0 10px 1px rgba(1, 56, 70, 1);
+    box-shadow: 2px 0 10px 1px rgba(1, 56, 70, 1);
     -webkit-scrollbar-track-piece
     /*background-image: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, .24) 0, rgba(0, 0, 0, .25) 100%);*/
     /*background-image: -mox-linear-gradient(to bottom, rgba(0, 0, 0, .24) 0, rgba(0, 0, 0, .25) 100%);*/
@@ -103,10 +104,10 @@
   section:before {
     content: '';
     z-index: 0;
-    width: 120%;
-    height: 100px;
+    width: 0%;
+    height: 0;
     position: absolute;
-    top: 0;
+    top: -20%;
     left: 0;
     -webkit-transition: all .35s ease;
     -moz-transition: all .35s ease;
@@ -118,11 +119,10 @@
     transition-delay: .2s;
     -webkit-transform: skew(-45deg) translateX(-75%);
     transform: skew(-45deg) translateX(-75%);
-    -webkit-box-shadow: -2px 0 10px -1px rgba(70, 173, 0, 1);
-    -moz-box-shadow: -2px 0 10px -1px rgba(70, 173, 0, 1);
-    box-shadow: 2px 0 10px 1px rgba(70, 173, 0, 1);
+    -webkit-box-shadow: 2px 0 10px 1px rgba(5, 199, 250, 1);
+    -moz-box-shadow: 2px 0 10px 1px rgba(5, 199, 250, 1);
+    box-shadow: 2px 0 10px 1px rgba(5, 199, 250, 1);
   }
-
   section:hover:before,
   section.hover:before {
     z-index: 0;
@@ -336,7 +336,7 @@
   /* D3 TREE NODE STYLING */
 
   .node text {
-    font-size: 2.5vmin;
+    font-size: 3vmin;
     font-family: 'FontAwesome', 'GE Inspira';
     fill: #fff;
     color: #fff;

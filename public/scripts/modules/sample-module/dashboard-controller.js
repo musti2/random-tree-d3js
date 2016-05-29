@@ -14,7 +14,6 @@ define(['angular',
     controllers.controller('DashboardCtrl', ['$scope', 'dataService', function($scope, dataService) {
         // PUBLIC METHODS AND VARS (in $scope)
         // ======================
-
         var combobox = document.querySelector('vaadin-combo-box');
         var section = document.getElementById('section');
         var card1 = $('.card_body');
@@ -112,7 +111,7 @@ define(['angular',
 
         // Define 'div' for tooltips
         var div = d3.select("#bizInfoCard").style("display", 'none');// set the opacity to nil
-        //fetch data
+        //fetch data and initiate toggle/update
         dataService.read().$promise.then(function (data){
             root = data;
             root.x0 = h / 2;
@@ -133,35 +132,31 @@ define(['angular',
             combobox.addEventListener('selected-item-changed', function(event) {
                 var label = event.detail.value.name;
             });
-            // toggle initial parents
-            // function toggleIndustry() {
-            //     toggle(byIndustry);
-            //     update(byIndustry);
-            // }
-            // setTimeout(toggleIndustry, 1000);
-            // update root
+            //init our tree
             toggle(root);
             update(root);
             //function when first node clicked
             $scope.startNodeClicked = false;
-            var startNode = d3.select('#startNode').on('click', function(d){
-                d3.select(this).attr('transform', 'translate(' + 250 + ',' + 45 + ')');
-                d3.select('.startNode').attr('r', 10);
-            });
 
+            // make some adjustments to our starting node.
+            d3.select('#GEStore-g').append('svg')
+                .attr('id', 'building')
+                .attr('height', 0)
+                .attr('width', 0)
+                .attr('viewBox', '0 0 24 24')
+                .attr('fill', '#fff')
+                .attr('x', -20)
+                .attr('y', -30)
+                .on("click", toggle);
+
+            d3.select('#building').append('path').attr('d', 'M0 0h24v24H0z').attr('fill', 'none');
+            d3.select('#building').append('path').attr('d', 'M20 4H4v2h16V4zm1 10v-2l-1-5H4l-1 5v2h1v6h10v-6h4v6h2v-6h1zm-9 4H6v-4h6v4z');
+            d3.select('#GEStore-text').style('opacity', 0).attr('x', 0).attr('y', 15);
+            d3.select('#GEStore-g circle:nth-child(1)').style('opacity', 0);
             d3.select('#GEStore-g').append('circle').attr('class', 'startNode2').attr('r', 20).style('stroke-opacity', 1).attr('fill', 'none');
             d3.select('#GEStore-g').append('circle').attr('class', 'startNode2').attr('r', 20).style('stroke-opacity', 1).attr('fill', 'none');
-            d3.select('#GEStore-g').append('text').attr('id', 'click-here').attr('class', 'click-here').text('Click Here').attr('x', 40).attr('y', 40).style('opacity', 0).on("click", toggle);
+            d3.select('#GEStore-g').append('text').attr('id', 'click-here').attr('class', 'click-here').text('start your journey here.').attr('x', 0).attr('y', 0).style('opacity', 0).on("click", toggle);
             // Tween starting node
-            TweenMax.to('#click-here', 1, {
-                attr: {
-                    'opacity': 1
-                },
-                delay: 1,
-                opacity: 1,
-                repeat: 0,
-                ease: Power1.easeInOut
-            });
             TweenMax.to('#startNode', 1, {
                 attr: {
                     'transform': 'translate(' + 250 + ',' + 45 + ')'
@@ -170,6 +165,39 @@ define(['angular',
                 delay: 1,
                 ease: Power3.easeNone
             });
+            TweenMax.to('#building', 1, {
+                attr: {
+                    'height': 48,
+                    'width': 48
+                },
+                repeat: 0,
+                delay: 1,
+                ease: Linear.easeNone
+            });
+            // Tween text for starting node
+            TweenMax.to('#click-here', 1, {
+                attr: {
+                    'opacity': 1,
+                    'x': 33,
+                    'y': 10
+                },
+                delay: 1,
+                opacity: 1,
+                repeat: 0,
+                ease: Power1.easeInOut
+            });
+            TweenMax.to('#GEStore-text', 1, {
+                attr: {
+                    'x': 35,
+                    'y': -20
+                },
+                delay: 1,
+                opacity: 1,
+                repeat: 0,
+                yoyo: true,
+                ease: Power1.easeInOut
+            });
+            // Tween starting node circles
             TweenMax.to('#GEStore-g circle:nth-child(1)', 2, {
                 attr: {
                     r: 75,
@@ -193,7 +221,7 @@ define(['angular',
                 ease: Circ.easeOut
             });
         });
-        // update
+        // update function
         function update(source) {
 
             var duration = d3.event && d3.event.altKey ? 5000 : 500;
@@ -245,7 +273,6 @@ define(['angular',
                     }
                 })
                 .on("click", toggle);
-
             // append smaller circle
             nodeEnter.append('svg:circle')
                 .attr('class',function(d){
@@ -287,6 +314,7 @@ define(['angular',
                 })
                 .style('fill-opacity', 1e-6)
                 .on('click', displayCard);
+            
             //set icon + name on text
             node.select('text')
                 .style('font-family', 'GE Inspira ' + '!important')
@@ -308,7 +336,7 @@ define(['angular',
                     }
                 }).on('mouseover', function(e) {
                     d3.select(this).style('fill', 'rgb(9,134,164)');
-                    if (e._children && !$scope.cardDisplayed && !e.name.includes('GE')){
+                    if (!e.children && !$scope.cardDisplayed && !e.name.includes('GE')){
                         if (!e.name.includes('Business')){
                             div.transition()
                             .duration(200)
@@ -339,18 +367,10 @@ define(['angular',
                 .attr('transform', function(d) {
                     return 'translate(' + d.y + ',' + d.x + ')';
                 });
-
-            
-
             nodeUpdate.select('circle')
                 .attr('r', function (d){
-                    if (d.name.includes('GE Store')){
-                        return 20;
-                    } else {
-                        return 20;
-                    }
+                    return 20;
                 });
-
             nodeUpdate.select('text')
                 .style('fill-opacity', 1);
 
@@ -415,7 +435,7 @@ define(['angular',
                 d.y0 = d.y;
             });
         }
-        // collapse
+        // collapse function
         function collapse(d) {
           if (d.children) {
             d._children = d.children;
@@ -423,7 +443,7 @@ define(['angular',
             d.children = null;
           }
         }
-        // toggle children
+        // toggle children function
         function toggle(d) {
           if (d.children) {
             d._children = d.children;
@@ -443,7 +463,7 @@ define(['angular',
           }
           update(d);
         }
-        // Display Card
+        // Display Card function
         function displayCard(e) {
             $scope.infoDetails = null;
             $scope.itemContact = null;
@@ -490,7 +510,7 @@ define(['angular',
                 // card.style.display = 'none';
             }
         }
-        // Get Items
+        // Get Items function
         $scope.getItems = function(item) {
             $scope.infoDetails = item.items;
             $scope.itemContact = item.contact;

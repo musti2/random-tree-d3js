@@ -718,6 +718,7 @@
         },
         {
           "name": "TRANSPORTATION",
+          "icon": "",
           "image": "../images/transport.png",
           "statement": "GE Transportation is industrial leader and supplier to the rail, mining, marine, stationary power and drilling industries. Its solutions help customers deliver goods and services with greater speed and greater savings  using advanced manufacturing techniques, industry expertise and connected machines. This business has its headquarters in Chicago.",
           "offerings": [],
@@ -1170,18 +1171,48 @@
                 "•Blowers & compressors",
                 "•Maintenance services & remote monitoring & diagnostics"
               ],
-              "contacts": [{
-                "name": "Brian Vanbueren",
-                "area": "",
-                "email": "brian.vanbueeren@ge.com",
-                "phone": "+61865957451"
-              }],
+              "contacts": [
+                {
+                  "name": "Brian Vanbueren",
+                  "area": "",
+                  "email": "brian.vanbueeren@ge.com",
+                  "phone": "+61865957451"
+                }
+              ],
               "videoUrl": "",
               "ppUrl": "",
               "ooUlr": "",
               "tags": []
             }
           ]
+        },
+        {
+          "name": "AVIATION",
+          "icon": "",
+          "type": "parent",
+          "image": "",
+          "statement": "Aviation",
+          "offerings": [],
+          "contacts": [],
+          "videoUrl": "",
+          "ppUrl": "",
+          "ooUlr": "",
+          "tags": [],
+          "children": []
+        },
+        {
+          "name": "Healthcare",
+          "icon": "",
+          "type": "parent",
+          "image": "",
+          "statement": "GE Healthcare",
+          "offerings": [],
+          "contacts": [],
+          "videoUrl": "",
+          "ppUrl": "",
+          "ooUlr": "",
+          "tags": [],
+          "children": []
         }
       ]
     },
