@@ -46,7 +46,8 @@
     "paper-dialog": "PolymerElements/paper-dialog#^1.0.4",
     "d3": "^3.5.17",
     "dragular": "^4.1.0",
-    "animate.css": "^3.5.1"
+    "animate.css": "^3.5.1",
+    "gsap": "^1.18.5"
   },
   "resolutions": {
     "es6-promise": "~v3.0.2",

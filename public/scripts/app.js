@@ -16,7 +16,9 @@ define([
     'angular-resource',
     'angular-sanitize',
     'dragula',
-    'px-timeseries'
+    'px-timeseries',
+    'd3',
+    'tweenMax'
 ], function ($, angular) {
     'use strict';
 

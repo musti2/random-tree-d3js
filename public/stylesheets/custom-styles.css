@@ -24,19 +24,19 @@
   /* CUSTOM STYLING
    * @ MUS
   */
-  body, html, section, .hero {
-    height: 100%;
-  }
   html, body {
     background-color: #041A21 !important;
     height: 100%;
     width: 100%;
+    overflow: hidden;
+  }
+  html {
     overflow-y: hidden !important;
   }
   body {
     margin-bottom: 0 !important;
     /*background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../images/getty_684078540713046502.jpg);*/
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../images/bg-pic.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.6)), url(../images/Optimized-140926_GE_Data_Pipelines_Final_4_CMYK.jpg);
     background-position: center center !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
@@ -67,21 +67,38 @@
   svg.m_icon:hover {
     fill: orange;
   }
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+   
+  ::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+      border-radius: 10px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+  }
+  ::-webkit-scrollbar-corner {
+    display: none;
+  }
   section {
     max-width: 94em !important;
     margin: 0 auto;
     padding: 10px 10px;
     width: 100%;
     height: 100%;
-    overflow-y: hidden;
     padding-right: 17px;
     position: relative;
+    overflow-y: auto;
     -webkit-box-shadow: -3px -1px 15px 0px rgba(70, 173, 0, .69);
     -moz-box-shadow: -3px -1px 15px 0px rgba(70, 173, 0, .69);
     box-shadow: -3px -1px 15px 0px rgba(70, 173, 0, .69);
-    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, .24) 0, rgba(0, 0, 0, .25) 100%);
-    background-image: -mox-linear-gradient(top, rgba(0, 0, 0, .24) 0, rgba(0, 0, 0, .25) 100%);
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .24) 0, rgba(0, 0, 0, .25) 100%)
+    -webkit-scrollbar-track-piece
+    /*background-image: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, .24) 0, rgba(0, 0, 0, .25) 100%);*/
+    /*background-image: -mox-linear-gradient(to bottom, rgba(0, 0, 0, .24) 0, rgba(0, 0, 0, .25) 100%);*/
+    /*background-image: linear-gradient(to bottom, rgba(0, 0, 0, .24) 0, rgba(0, 0, 0, .25) 100%)*/
   }
   section:before {
     content: '';
@@ -145,9 +162,9 @@
     transition: all 0.35s ease-in-out;
     background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.35) 100%);
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.35) 100%);
-        -webkit-box-shadow: -2px 0px 10px -1px rgba(93,165,218,1);
-    -moz-box-shadow: -2px 0px 10px -1px rgba(93,165,218,1);
-    box-shadow: -2px 0px 10px -1px rgba(93,165,218,1);
+        -webkit-box-shadow: -2px 0px 10px -1px rgba(132,18,37,1);
+    -moz-box-shadow: -2px 0px 10px -1px rgba(132,18,37,1);
+    box-shadow: -2px 0px 10px -1px rgba(132,18,37,1);
   }
 
   /*  div.card:hover {
@@ -188,9 +205,9 @@
     -webkit-transition: all 0.35s ease;
     transition: all 0.35s ease;
     z-index: 1;
-    -webkit-box-shadow: -2px 0px 10px -1px rgba(0,92,185,1);
-    -moz-box-shadow: -2px 0px 10px -1px rgba(0,92,185,1);
-    box-shadow: -2px 0px 10px -1px rgba(0,92,185,1);
+    -webkit-box-shadow: -2px 0px 10px -1px rgba(132,18,37,1);
+    -moz-box-shadow: -2px 0px 10px -1px rgba(132,18,37,1);
+    box-shadow: -2px 0px 10px -1px rgba(132,18,37,1);
     background-image: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(93,165,218, 0.995) 100%);
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(93,165,218, 0.995) 100%);
     -webkit-transition-delay: 0.2s;
@@ -211,7 +228,7 @@
 
   div.card .caption {
       padding: 25px 80px 25px 25px;
-      /*background-color: #ffffff;*/
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.6));
       color: #000000;
       position: relative;
       font-size: 0.9em;
@@ -234,7 +251,7 @@
     height: 15%;
   }
   .white {
-    color: #fff;
+    color: #fff !important;
   }
   .box {
     padding: 10px;
@@ -326,7 +343,7 @@
     cursor: pointer;
   }
 
-
+  text.
   line.link {
     fill: none;
     stroke: #9ecae1;
@@ -363,6 +380,31 @@
       100% {stroke: #086e87;}
   }
 
+  @-webkit-keyframes pathcolorsWhite {
+      0%   {stroke: #0a9ec1;}
+      50%  {stroke: #0986a4;}
+      100% {stroke: white;}
+  }
+
+  /* Standard syntax */
+  @keyframes pathcolorsWhite {
+      0%   {stroke: #0a9ec1;}
+      50%  {stroke: #0986a4;}
+      100% {stroke: white;}
+  }
+
+  @-webkit-keyframes expandFont {
+      0%   {font-size: 2px;}
+      50%  {font-size: 10px;}
+      100% {font-size: 14px;}
+  }
+
+  /* Standard syntax */
+  @keyframes expandFont {
+      0%   {font-size: 2px;}
+      50%  {font-size: 10px;}
+      100% {font-size: 14px;}
+  }
   div.contact {
     flex-direction: row;
     display: flex;
@@ -739,9 +781,48 @@
     justify-content: center !important;
   }
 
+  .arrow-wrap {
+    position:absolute;
+    z-index:1;
+    left:50%;
+    top:-5em;
+    margin-left:-5em;
+    background:#111;
+    width:10em;
+    height:10em;
+    padding:4em 2em;
+    border-radius:50%;
+    font-size:0.5em;
+    display:block;
+  }
+
+  .arrow {
+    float:left;
+    position:relative;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 3em 3em 0 3em;
+    border-color: transparent transparent transparent;
+    -webkit-transform:rotate(360deg)
+  }
+
+  .arrow:after {
+    content:'';
+    position:absolute;
+    top:-3.2em;
+    left:-3em;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 3em 3em 0 3em;
+    border-color: #111 transparent transparent transparent;
+    -webkit-transform:rotate(360deg)
+  }
+
   g circle.ghostCircle {
     opacity: 0.2;
-    fill: rgb(203, 32, 39);
+    fill: red;
     pointer-events: mouseover;
   }
   /*g circle.startNode {
@@ -766,6 +847,15 @@
     -webkit-animation: pulse 1.5s infinite;
   }*/
 
+  .scroller {
+    animation: arrows 2000ms linear infinite;
+    -webkit-animation: arrows 2000ms linear infinite;
+    -moz-animation: arrows 2000ms linear infinite;
+    z-index: 5;
+  }
+  .scroller i {
+    color: #fff;
+  }
   div.scroll-to-bottom {
     position: absolute;
     right: 2%;
@@ -780,7 +870,7 @@
   }
 
   g circle.nodeCircle {
-    fill: rgb(229,56,56);
+    fill: rgba(255, 158, 44, .5);
   }
   g circle.nodeCircle-last {
     fill: rgb(96,189,104);
@@ -792,18 +882,28 @@
     -webkit-animation: pulse 2000ms linear infinite;
     -moz-animation: pulse 2000ms linear infinite;
   }
+  text#GEStore-text.node--text.caps {
+    font-size: 2em !important;
+    animation: pathcolors 2000ms ease-in-out infinite;
+    -webkit-animation: pathcolors 2000ms ease-in-out infinite;
+    -moz-animation: pathcolors 2000ms ease-in-out infinite;
+  }
 
   g circle.startNode {
-    width: 80px;
-    height: 80px;
-    fill: rgba(70, 173, 0, 1);
+    width: 40px;
+    stroke: #72ea90;
+    stroke-width: 4;
+    height: 40px;
+    opacity: 1;
+    /*fill: white;*/
     /** height is required as absolute value **/
-    background-color: #F08080;
+    background-color: #fff;
     border-radius: 100px;
     position:relative;
-    animation: pulse 2000ms linear infinite;
-    -webkit-animation: pulse 2000ms linear infinite;
-    -moz-animation: pulse 2000ms linear infinite;
+    animation: pathcolorsWhite 2200ms linear infinite;
+    -webkit-animation: pathcolorsWhite 2200ms linear infinite;
+    -moz-animation: pathcolorsWhite 2200ms linear infinite;
+    transform: scale(0.8);
   }
 
   g rect.ghostCircle {
@@ -826,7 +926,6 @@
     height: 80px;
     border-radius: 100px;
     background-color: #CD5C5C;
-    fill: rgb(255,152,33);
   }
 
   g circle.nodeCircle-last:after,
@@ -845,27 +944,63 @@
     animation: inner-ripple 2000ms linear infinite;
   }
 
+  @keyframes arrows {
+    0% { bottom:0; }
+    10% { bottom:0.5%; }
+    20% { bottom:1; }
+    30% { bottom: 1.24%; }
+    40% { bottom: 1.64%; }
+    50% { bottom: 2%; }
+    60% { bottom:1.64%; }
+    70% { bottom:1.24%; }
+    80% { bottom:1%; }
+    90% { bottom:0.5%; }
+    100% { bottom:0; }
+  }
+  @-webkit-keyframes arrows {
+    0% { bottom:0; }
+    10% { bottom:0.5%; }
+    20% { bottom:1; }
+    30% { bottom: 1.24%; }
+    40% { bottom: 1.64%; }
+    50% { bottom: 2%; }
+    60% { bottom:1.64%; }
+    70% { bottom:1.24%; }
+    80% { bottom:1%; }
+    90% { bottom:0.5%; }
+    100% { bottom:0; }
+  }
+    
+    .arrow-wrap .arrow {
+      -webkit-animation: arrows 2.8s 0.4s;
+      -webkit-animation-delay: 3s;
+    }
+
   /* outer ripple */
   @keyframes pulse{
     0% {
       transform: scale(0.8);
       filter: alpha(opacity=50);
       opacity: 0.5;
+      fill: rgb(132,18,37) !important;
     }
     10% {
       transform: scale(1.1);
       filter: alpha(opacity=1);
-      opacity: 1;
+      opacity: 0.8;
+      fill: rgb(0,54,110) !important;
     }
     20% {
       transform: scale(0.9);
       filter: alpha(opacity=1);
-      opacity: 1;
+      opacity: 0.8;
+      fill: rgb(0,54,110) !important;
     }
     100% {
       transform: scale(0.8);
       filter: alpha(opacity=50);
       opacity: 0.5;
+      fill: rgb(29,95,17) !important;
     }
   }
   @-moz-keyframes pulse{
@@ -873,21 +1008,24 @@
       transform: scale(0.8);
       filter: alpha(opacity=50);
       opacity: 0.5;
+      fill: rgb(132,18,37);
     }
     10% {
       transform: scale(1.1);
       filter: alpha(opacity=1);
-      opacity: 1;
+      opacity: 0.8;
+      fill: rgb(0,54,110);
     }
     20% {
       transform: scale(0.9);
       filter: alpha(opacity=1);
-      opacity: 1;
+      opacity: 0.8;
     }
     100% {
       transform: scale(0.8);
       filter: alpha(opacity=50);
       opacity: 0.5;
+      fill: rgb(29,95,17);
     }
   }
   @-webkit-keyframes pulse{
@@ -895,21 +1033,24 @@
       transform: scale(0.8);
       filter: alpha(opacity=50);
       opacity: 0.5;
+      fill: rgb(132,18,37);
     }
     10% {
       transform: scale(1.1);
       filter: alpha(opacity=1);
-      opacity: 1;
+      opacity: 0.8;
+      fill: rgb(0,54,110);
     }
     20% {
       transform: scale(0.9);
       filter: alpha(opacity=1);
-      opacity: 1;
+      opacity: 0.8;
     }
     100% {
       transform: scale(0.8);
       filter: alpha(opacity=50);
       opacity: 0.5;
+      fill: rgb(29,95,17);
     }
   }
 
@@ -1018,9 +1159,3 @@
       opacity: 0;
     }
   }
-
-
-
-
-
-
