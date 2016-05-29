@@ -349,7 +349,7 @@ define(['angular',
                     }
                 }).on('mouseover', function(e) {
                     d3.select(this).style('fill', 'rgb(9,134,164)');
-                    if (!e.children && !$scope.cardDisplayed && !e.name.includes('GE')){
+                    if (e.type && !$scope.cardDisplayed && !e.name.includes('GE')){
                         if (!e.name.includes('Business')){
                             div.transition()
                             .duration(200)
