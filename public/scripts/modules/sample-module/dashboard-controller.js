@@ -148,44 +148,50 @@ define(['angular',
                 d3.select(this).attr('transform', 'translate(' + 250 + ',' + 45 + ')');
                 d3.select('.startNode').attr('r', 10);
             });
-            // Loader 2
-            TweenMax.to('#GEStore-g circle:nth-child(1)', 2, {
-              attr: {
-                r: 75,
-                'stroke-width': 1.4,
-                'stroke-opacity': 1
-              },
-              opacity: 0,
-              repeat: -1,
-              delay: 1
+
+            d3.select('#GEStore-g').append('circle').attr('class', 'startNode2').attr('r', 20).style('stroke-opacity', 1).attr('fill', 'none');
+            d3.select('#GEStore-g').append('circle').attr('class', 'startNode2').attr('r', 20).style('stroke-opacity', 1).attr('fill', 'none');
+            d3.select('#GEStore-g').append('text').attr('id', 'click-here').attr('class', 'click-here').text('Click Here').attr('x', 40).attr('y', 40).style('opacity', 0).on("click", toggle);
+            // Tween starting node
+            TweenMax.to('#click-here', 1, {
+                attr: {
+                    'opacity': 1
+                },
+                delay: 1,
+                opacity: 1,
+                repeat: 0,
+                ease: Power1.easeInOut
             });
-        
-            // d3.select('#GEStore-g').append('circle').attr('class', 'circle-two').attr('r', 20).style('stroke-opacity', 0);
-            // d3.select('#GEStore-g').append('circle').attr('class', 'circle-three').attr('r', 20).style('stroke-opacity', 0);
-            // TweenMax.to('#GEStore-g circle.circle-three', 1.5, {
-            //   attr: {
-            //     r: 55,
-            //     'stroke-width': 1,
-            //     'stroke-opacity': 1,
-            //     'fill': 'none',
-            //     'stroke': '#72ea90'
-            //   },
-            //   repeat: -1,
-            //   yoyo: true,
-            //   ease: Power2.easeOut
-            // });
-            // TweenMax.to('#GEStore-g circle.circle-two', 1.5, {
-            //   attr: {
-            //     r: 55,
-            //     'stroke-width': 1,
-            //     'stroke-opacity': 1,
-            //     'fill': 'none',
-            //     'stroke': '#72ea90'
-            //   },
-            //   repeat: -1,
-            //   yoyo: true,
-            //   ease: Power2.easeOut
-            // });
+            TweenMax.to('#startNode', 1, {
+                attr: {
+                    'transform': 'translate(' + 250 + ',' + 45 + ')'
+                },
+                repeat: 0,
+                delay: 1,
+                ease: Power3.easeNone
+            });
+            TweenMax.to('#GEStore-g circle:nth-child(1)', 2, {
+                attr: {
+                    r: 75,
+                    'stroke-width': 1.4,
+                    'stroke-opacity': 1
+                },
+                opacity: 1,
+                repeat: -1,
+                delay: 1,
+                ease: Power1.easeInOut
+            });
+            TweenMax.to('#GEStore-g circle.startNode2', 2, {
+                attr: {
+                    r: 85,
+                    'stroke-width': 1.4,
+                    'stroke-opacity': 1,
+                    'stroke': "#fff"
+                },
+                opacity: 0,
+                repeat: -1,
+                ease: Circ.easeOut
+            });
         });
         // update
         function update(source) {
@@ -256,7 +262,7 @@ define(['angular',
                 .attr('class', 'node--text caps')
                 .attr('x', function(d) {
                     if (d.name.includes('GE Store')){
-                        return 62;
+                        return 15;
                     } else {
                         return 18;
                     }
@@ -264,11 +270,12 @@ define(['angular',
                 })
                 .attr('dy', '.35em')
                 .attr('text-anchor', function(d) {
-                    if (d.name.includes('GE Store')){
-                        return 'end';
-                    } else {
-                        return 'start';
-                    }
+                    // if (d.name.includes('GE Store')){
+                    //     return 'end';
+                    // } else {
+                    //     return 'start';
+                    // }
+                    return 'start';
                     // return d.children || d._children ? 'start' : 'start';
                 })
                 .style('fill', function(e){
@@ -291,7 +298,7 @@ define(['angular',
                     } else if (d.name.includes('Manager')) {
                         return '\uf084 ' + d.name;
                     } else if (d.name.includes('Store')) {
-                        return 'GE Store';
+                        return 'the GE Store';
                     } else if (d.children) {
                         return d.name + ' \uf056';
                     } else if (d._children) {
@@ -326,7 +333,6 @@ define(['angular',
                     });
                 });
             
-
             // Transition nodes to their new position.
             var nodeUpdate = node.transition()
                 .duration(duration)

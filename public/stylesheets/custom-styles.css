@@ -873,14 +873,14 @@
     fill: rgba(255, 158, 44, .5);
   }
   g circle.nodeCircle-last {
-    fill: rgb(96,189,104);
+    fill: none;
     width: 80px;
     height: 80px;
     background-color: #F08080;
     border-radius: 100px;
-    animation: pulse 2000ms linear infinite;
-    -webkit-animation: pulse 2000ms linear infinite;
-    -moz-animation: pulse 2000ms linear infinite;
+    animation: pathcolors 2000ms linear infinite;
+    -webkit-animation: pathcolors 2000ms linear infinite;
+    -moz-animation: pathcolors 2000ms linear infinite;
   }
   text#GEStore-text.node--text.caps {
     font-size: 2em !important;
