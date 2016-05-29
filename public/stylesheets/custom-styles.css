@@ -84,7 +84,7 @@
     display: none;
   }
   section {
-    max-width: 94em !important;
+    max-width: 80vw !important;
     margin: 0 auto;
     padding: 10px 10px;
     width: 100%;
@@ -336,7 +336,6 @@
   /* D3 TREE NODE STYLING */
 
   .node text {
-    font-size: 3vmin;
     font-family: 'FontAwesome', 'GE Inspira';
     fill: #fff;
     color: #fff;

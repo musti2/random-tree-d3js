@@ -106,13 +106,43 @@ define(['angular',
         var svgTemplate = document.getElementById('svgTemplate');
         //  keeping it simple here with only a transform translate, which simply pushes the whole g group over and down by x (0) y (45) amount.
         var vis = d3.select(svgTemplate).append('svg:g')
-                    .attr("transform", "translate(" + (1920 / 2) + "," + 20 + ")")
                     .attr('id', 'startNode');
 
+        TweenMax.to('#startNode', 1, {
+            attr: {
+                'transform': 'translate(' + -100 + ',' + 20 + ')'
+            },
+            repeat: 0,
+            delay: 0,
+            ease: Power3.easeNone
+        });
         // Define 'div' for tooltips
         var div = d3.select("#bizInfoCard").style("display", 'none');// set the opacity to nil
         //fetch data and initiate toggle/update
-        dataService.read().$promise.then(function (data){
+
+        function styleFirstNode(){
+            // make some adjustments to our starting node.
+            d3.select('#GEStore-g').append('svg')
+                .attr('id', 'building')
+                .attr('height', 0)
+                .attr('width', 0)
+                .attr('viewBox', '0 0 24 24')
+                .attr('fill', '#fff')
+                .attr('x', -20)
+                .attr('y', -30)
+                .on("click", toggle);
+
+            d3.select('#building').append('path').attr('d', 'M0 0h24v24H0z').attr('fill', 'none');
+            d3.select('#building').append('path').attr('d', 'M20 4H4v2h16V4zm1 10v-2l-1-5H4l-1 5v2h1v6h10v-6h4v6h2v-6h1zm-9 4H6v-4h6v4z');
+            d3.select('#GEStore-text').style('opacity', 0).attr('x', 0).attr('y', 15);
+            d3.select('#GEStore-g circle:nth-child(1)').style('opacity', 0);
+            d3.select('#GEStore-g').append('circle').attr('class', 'startNode2').attr('r', 20).style('stroke-opacity', 1).attr('fill', 'none');
+            d3.select('#GEStore-g').append('circle').attr('class', 'startNode2').attr('r', 20).style('stroke-opacity', 1).attr('fill', 'none');
+            d3.select('#GEStore-g').append('text').attr('id', 'click-here').attr('class', 'click-here').text('start your journey here.').attr('x', 0).attr('y', 0).style('opacity', 0).on("click", toggle);
+        }
+
+        dataService.read(function(data){
+
             root = data;
             root.x0 = h / 2;
             root.y0 = 0;
@@ -138,32 +168,15 @@ define(['angular',
             //function when first node clicked
             $scope.startNodeClicked = false;
 
-            // make some adjustments to our starting node.
-            d3.select('#GEStore-g').append('svg')
-                .attr('id', 'building')
-                .attr('height', 0)
-                .attr('width', 0)
-                .attr('viewBox', '0 0 24 24')
-                .attr('fill', '#fff')
-                .attr('x', -20)
-                .attr('y', -30)
-                .on("click", toggle);
-
-            d3.select('#building').append('path').attr('d', 'M0 0h24v24H0z').attr('fill', 'none');
-            d3.select('#building').append('path').attr('d', 'M20 4H4v2h16V4zm1 10v-2l-1-5H4l-1 5v2h1v6h10v-6h4v6h2v-6h1zm-9 4H6v-4h6v4z');
-            d3.select('#GEStore-text').style('opacity', 0).attr('x', 0).attr('y', 15);
-            d3.select('#GEStore-g circle:nth-child(1)').style('opacity', 0);
-            d3.select('#GEStore-g').append('circle').attr('class', 'startNode2').attr('r', 20).style('stroke-opacity', 1).attr('fill', 'none');
-            d3.select('#GEStore-g').append('circle').attr('class', 'startNode2').attr('r', 20).style('stroke-opacity', 1).attr('fill', 'none');
-            d3.select('#GEStore-g').append('text').attr('id', 'click-here').attr('class', 'click-here').text('start your journey here.').attr('x', 0).attr('y', 0).style('opacity', 0).on("click", toggle);
+            styleFirstNode();
             // Tween starting node
-            TweenMax.to('#startNode', 1, {
+            TweenMax.to('#startNode', 2.5, {
                 attr: {
                     'transform': 'translate(' + 250 + ',' + 45 + ')'
                 },
                 repeat: 0,
                 delay: 1,
-                ease: Power3.easeNone
+                ease: Elastic.easeOut.config(1.5, 0.9), y: 0
             });
             TweenMax.to('#building', 1, {
                 attr: {
@@ -200,7 +213,7 @@ define(['angular',
             // Tween starting node circles
             TweenMax.to('#GEStore-g circle:nth-child(1)', 2, {
                 attr: {
-                    r: 75,
+                    r: 95,
                     'stroke-width': 1.4,
                     'stroke-opacity': 1
                 },
