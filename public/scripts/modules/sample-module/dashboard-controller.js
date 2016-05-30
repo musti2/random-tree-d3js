@@ -108,10 +108,11 @@ define(['angular',
         var vis = d3.select(svgTemplate).append('svg:g')
                     .attr('id', 'startNode');
 
+        // vis.transition().delay(100).attr("transform", "translate(" + (1650 / 2) + "," + 20 + ")");
+        
         TweenMax.to('#startNode', 1, {
-            attr: {
-                'transform': 'translate(' + -100 + ',' + 20 + ')'
-            },
+            x: -100,
+            y: 20,
             repeat: 0,
             delay: 0,
             ease: Power3.easeNone
@@ -171,12 +172,11 @@ define(['angular',
             styleFirstNode();
             // Tween starting node
             TweenMax.to('#startNode', 2.5, {
-                attr: {
-                    'transform': 'translate(' + 250 + ',' + 45 + ')'
-                },
+                x: 150,
+                y: 45,
                 repeat: 0,
                 delay: 1,
-                ease: Elastic.easeOut.config(1.5, 0.9), y: 0
+                ease: Elastic.easeOut.config(1.5, 0.9)
             });
             TweenMax.to('#building', 1, {
                 attr: {

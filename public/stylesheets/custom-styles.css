@@ -882,6 +882,7 @@
     -moz-animation: pathcolors 2000ms linear infinite;
   }
   text#GEStore-text.node--text.caps {
+    stroke-opacity: 0;
     font-size: 2em !important;
     animation: pathcolors 2000ms ease-in-out infinite;
     -webkit-animation: pathcolors 2000ms ease-in-out infinite;
