@@ -201,7 +201,7 @@ define(['angular',
             });
             TweenMax.to('#GEStore-text', 1, {
                 attr: {
-                    'x': 35,
+                    'x': 30,
                     'y': -20
                 },
                 delay: 1,
